@@ -1,0 +1,54 @@
+version: '2'
+services:
+  solr:
+    image: risdenk/solrj-jdbc-testing:solr
+    ports:
+      - 8983
+      - 9983
+    volumes:
+      - /opt/solr
+
+  jisql:
+    image: risdenk/solrj-jdbc-testing:jisql
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+    environment:
+      - "JDBC=jdbc:solr://solr:9983?collection=test"
+      - "QUERY=select fielda, fieldb, fieldc, fieldd_s, fielde_i from test limit 10;"
+
+  spark:
+    image: risdenk/solrj-jdbc-testing:spark
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
+  r-base:
+    image: risdenk/solrj-jdbc-testing:r-base
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
+  rstudio:
+    image: risdenk/solrj-jdbc-testing:rstudio
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
+  jython:
+    image: risdenk/solrj-jdbc-testing:jython
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
+  python:
+    image: risdenk/solrj-jdbc-testing:python
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
