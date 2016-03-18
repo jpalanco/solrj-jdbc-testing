@@ -43,6 +43,8 @@ services:
 
   rstudio:
     image: risdenk/solrj-jdbc-testing:rstudio
+    ports:
+      - 8787
     depends_on:
       - solr
     volumes_from:
