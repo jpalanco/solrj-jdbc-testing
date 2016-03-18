@@ -40,6 +40,7 @@ services:
       - solr
     volumes_from:
       - solr:ro
+    command: Rscript /opt/scripts/test_solr.R
 
   rstudio:
     image: risdenk/solrj-jdbc-testing:rstudio
