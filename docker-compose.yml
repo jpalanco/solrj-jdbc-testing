@@ -40,7 +40,6 @@ services:
       - solr
     volumes_from:
       - solr:ro
-    command: bash -c "Rscript /opt/scripts/test_solr.R"
 
   rstudio:
     image: risdenk/solrj-jdbc-testing:rstudio
@@ -55,8 +54,6 @@ services:
       - solr
     volumes_from:
       - solr:ro
-    command: bash -c "/usr/local/bin/jython /opt/scripts/test_solr_zxjdbc.py"
-    #command: bash -c "/usr/local/bin/jython /opt/scripts/test_solr_native.py"
 
   python:
     image: risdenk/solrj-jdbc-testing:python
@@ -64,4 +61,4 @@ services:
       - solr
     volumes_from:
       - solr:ro
-    command: bash -c "python /opt/scripts/test_solr_jaydebeapi.py"
+
