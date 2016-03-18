@@ -18,6 +18,15 @@ services:
       - "JDBC=jdbc:solr://solr:9983?collection=test"
       - "QUERY=select fielda, fieldb, fieldc, fieldd_s, fielde_i from test limit 10;"
 
+  zeppelin:
+    image: risdenk/solrj-jdbc-testing:zeppelin
+    ports:
+      - 8080
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
   spark:
     image: risdenk/solrj-jdbc-testing:spark
     depends_on:
