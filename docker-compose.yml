@@ -63,5 +63,4 @@ services:
       - solr
     volumes_from:
       - solr:ro
-    command:
-      - bash -c "python /opt/scripts/test_solr_jaydebeapi.py"
+    command: python /opt/scripts/test_solr_jaydebeapi.py
