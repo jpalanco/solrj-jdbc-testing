@@ -1,0 +1,351 @@
+{
+  "paragraphs": [
+    {
+      "text": "# Solr JDBC",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:51:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457365494354_984395377",
+      "id": "20160307-154454_1827193458",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eSolr JDBC\u003c/h1\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 3:44:54 PM",
+      "dateStarted": "Mar 15, 2016 10:52:00 PM",
+      "dateFinished": "Mar 15, 2016 10:52:02 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\nselect fielda, fieldb from test limit 10",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:52:00 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 193.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "fielda",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "fieldb",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "fielda",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457126460229_39707172",
+      "id": "20160304-212100_1546617191",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "fielda\tfieldb\na1\tb1\na2\tb2\na1\tb3\na1\tb4\na2\tb2\n"
+      },
+      "dateCreated": "Mar 4, 2016 9:21:00 PM",
+      "dateStarted": "Mar 15, 2016 10:52:00 PM",
+      "dateFinished": "Mar 15, 2016 10:52:02 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\nselect fielda, fieldb, fieldd_s from test limit 10",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:52:00 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 193.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457126497129_1879237636",
+      "id": "20160304-212137_477520944",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "fielda\tfieldb\tfieldd_s\na1\tb1\td1\na2\tb2\td1\na1\tb3\tnull\na1\tb4\td2\na2\tb2\td2\n"
+      },
+      "dateCreated": "Mar 4, 2016 9:21:37 PM",
+      "dateStarted": "Mar 15, 2016 10:52:01 PM",
+      "dateFinished": "Mar 15, 2016 10:52:02 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\nselect fielda, min(fieldc) from test group by fielda",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:52:00 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 103.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457365320593_-664269508",
+      "id": "20160307-154200_33470212",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "fielda\tmin(fieldc)\na1\t1.0\na2\t2.0\n"
+      },
+      "dateCreated": "Mar 7, 2016 3:42:00 PM",
+      "dateStarted": "Mar 15, 2016 10:52:02 PM",
+      "dateFinished": "Mar 15, 2016 10:52:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\nselect fielda, fieldb, fieldc from test order by fielda desc",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:52:00 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 194.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457365353114_-487239042",
+      "id": "20160307-154233_503091281",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "fielda\tfieldb\tfieldc\na2\tb2\t2\na2\tb2\tnull\na1\tb1\t1\na1\tb3\t3\na1\tb4\t4\n"
+      },
+      "dateCreated": "Mar 7, 2016 3:42:33 PM",
+      "dateStarted": "Mar 15, 2016 10:52:03 PM",
+      "dateFinished": "Mar 15, 2016 10:52:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\nselect fielda, fieldb, fieldc, fieldd_s, fielde_i from test limit 10",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:52:00 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 194.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457365363570_1459220968",
+      "id": "20160307-154243_1213095640",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "fielda\tfieldb\tfieldc\tfieldd_s\tfielde_i\na1\tb1\t1\td1\t1\na2\tb2\t2\td1\t2\na1\tb3\t3\tnull\t1\na1\tb4\t4\td2\tnull\na2\tb2\tnull\td2\t2\n"
+      },
+      "dateCreated": "Mar 7, 2016 3:42:43 PM",
+      "dateStarted": "Mar 15, 2016 10:52:03 PM",
+      "dateFinished": "Mar 15, 2016 10:52:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\nselect fielda, fieldb, min(fieldc), max(fieldc), avg(fieldc), sum(fieldc) from test group by fielda, fieldb",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:52:01 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 164.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "fielda",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "fieldb",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "fielda",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "fieldb",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457365376497_-265608351",
+      "id": "20160307-154256_1119891951",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "fielda\tfieldb\tmin(fieldc)\tmax(fieldc)\tavg(fieldc)\tsum(fieldc)\na1\tb1\t1.0\t1.0\t1.0\t1.0\na1\tb3\t3.0\t3.0\t3.0\t3.0\na1\tb4\t4.0\t4.0\t4.0\t4.0\na2\tb2\t2.0\t2.0\t2.0\t2.0\n"
+      },
+      "dateCreated": "Mar 7, 2016 3:42:56 PM",
+      "dateStarted": "Mar 15, 2016 10:52:03 PM",
+      "dateFinished": "Mar 15, 2016 10:52:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "authenticationInfo": {},
+      "dateUpdated": "Mar 15, 2016 10:52:01 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": false,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457365386031_-1290732663",
+      "id": "20160307-154306_1318539827",
+      "dateCreated": "Mar 7, 2016 3:43:06 PM",
+      "dateStarted": "Mar 7, 2016 3:44:15 PM",
+      "dateFinished": "Mar 7, 2016 3:44:15 PM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Solr JDBC",
+  "id": "2BCZDUGVP",
+  "owners": [],
+  "readers": [],
+  "writers": [],
+  "angularObjects": {
+    "2BEEMR4HD": [],
+    "2BDZY2GGQ": [],
+    "2BCYG4V14": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}
