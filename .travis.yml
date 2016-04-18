@@ -1,0 +1,26 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+- docker-compose pull solr $TECH
+- docker-compose up -d solr
+- sleep 15
+
+env:
+- TECH=jisql
+- TECH=jython
+- TECH=python
+- TECH=r-base
+- TECH=spark
+
+matrix:
+  fast_finish: true
+  allow_failures:
+  - env: TECH=python
+  - env: TECH=r-base
+  - env: TECH=spark
+
+script:
+- docker-compose up $TECH
