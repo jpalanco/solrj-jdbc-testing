@@ -64,3 +64,12 @@ services:
     volumes_from:
       - solr:ro
 
+  dbvisualizer:
+    image: risdenk/solrj-jdbc-testing:dbvisualizer
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+    environment:
+      - "DISPLAY=${X11_DISPLAY}"
+

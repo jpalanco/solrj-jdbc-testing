@@ -1,0 +1,324 @@
+2016-04-18 22:43:04.372 CONFIG  97 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-18 22:43:04.373 CONFIG  97 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-18 22:43:04.374 CONFIG  97 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-18 22:43:04.374 CONFIG  97 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-18 22:43:04.374 CONFIG  97 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-18 22:43:04.374 CONFIG  97 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-18 22:43:04.374 CONFIG  97 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-18 22:43:04.374 CONFIG  97 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-18 22:43:04.375 CONFIG  97 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-18 22:43:04.375 CONFIG  97 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-18 22:43:04.375 CONFIG  97 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-18 22:43:04.375 CONFIG  97 [AWT-EventQueue-0 - D.ā] SessionId: 97
+2016-04-18 22:43:04.464 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/Bookmarks
+2016-04-18 22:43:04.465 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/config70
+2016-04-18 22:43:04.465 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/config70/borders
+2016-04-18 22:43:04.465 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/config70/keymaps
+2016-04-18 22:43:04.465 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/config70/layouts
+2016-04-18 22:43:04.466 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/ext
+2016-04-18 22:43:04.466 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/ext/images
+2016-04-18 22:43:04.466 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/ext/images/16x16
+2016-04-18 22:43:04.466 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/ext/images/24x24
+2016-04-18 22:43:04.467 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/ext/profiles
+2016-04-18 22:43:04.467 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/History
+2016-04-18 22:43:04.467 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/jdbc
+2016-04-18 22:43:04.497 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/Monitors
+2016-04-18 22:43:04.498 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/Workspace
+2016-04-18 22:43:04.498 INFO    97 [AWT-EventQueue-0 - B.ā] Directory created: /root/.dbvis/Workspace/default
+2016-04-18 22:43:04.523 INFO    97 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-18 22:43:04.523 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-18 22:43:04.523 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-18 22:43:04.524 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-18 22:43:04.534 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-18 22:43:04.535 INFO    97 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-18 22:43:04.535 INFO    97 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/dbvis.xml.bak. Will use default setup
+2016-04-18 22:43:04.684 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-18 22:43:04.684 INFO    97 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-18 22:43:04.684 INFO    97 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/tablefilters.xml.bak. Will use default setup
+2016-04-18 22:43:04.684 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-18 22:43:04.685 INFO    97 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-18 22:43:04.685 INFO    97 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/favorites.xml.bak. Will use default setup
+2016-04-18 22:43:04.685 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-18 22:43:04.685 INFO    97 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-18 22:43:04.685 INFO    97 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/editorstyles91.xml.bak. Will use default setup
+2016-04-18 22:43:04.686 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-18 22:43:04.686 INFO    97 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-18 22:43:04.686 INFO    97 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/templates.xml.bak. Will use default setup
+2016-04-18 22:43:04.690 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-18 22:43:04.690 INFO    97 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-18 22:43:04.690 INFO    97 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/workingset.xml.bak. Will use default setup
+2016-04-18 22:43:04.691 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-18 22:43:04.691 INFO    97 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-18 22:43:04.691 INFO    97 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/mp.xml.bak. Will use default setup
+2016-04-18 22:43:10.046 INFO    97 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 6.093
+2016-04-18 22:43:10.850 INFO    97 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-18 22:43:10.851 INFO    97 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-18 22:44:27.033 INFO    97 [AWT-EventQueue-0 - Q.flush] java.awt.AWTException: java.awt.Robot requires your X server support the XTEST extension version 2.2
+2016-04-18 22:44:27.034 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at sun.awt.X11.XRobotPeer.setup(Native Method)
+2016-04-18 22:44:27.034 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at sun.awt.X11.XRobotPeer.<init>(XRobotPeer.java:47)
+2016-04-18 22:44:27.034 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at sun.awt.X11.XToolkit.createRobot(XToolkit.java:916)
+2016-04-18 22:44:27.034 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Robot.init(Robot.java:134)
+2016-04-18 22:44:27.034 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Robot.<init>(Robot.java:93)
+2016-04-18 22:44:27.034 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at de.javasoft.plaf.synthetica.Popup.createScreenCapture(Popup.java:333)
+2016-04-18 22:44:27.035 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at de.javasoft.plaf.synthetica.Popup.snapshot(Popup.java:321)
+2016-04-18 22:44:27.035 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at de.javasoft.plaf.synthetica.Popup.access$2(Popup.java:312)
+2016-04-18 22:44:27.035 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at de.javasoft.plaf.synthetica.Popup$2.run(Popup.java:251)
+2016-04-18 22:44:27.035 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+2016-04-18 22:44:27.035 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+2016-04-18 22:44:27.035 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue.access$500(EventQueue.java:97)
+2016-04-18 22:44:27.036 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue$3.run(EventQueue.java:709)
+2016-04-18 22:44:27.036 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue$3.run(EventQueue.java:703)
+2016-04-18 22:44:27.036 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.AccessController.doPrivileged(Native Method)
+2016-04-18 22:44:27.036 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+2016-04-18 22:44:27.036 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+2016-04-18 22:44:27.036 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+2016-04-18 22:44:27.036 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+2016-04-18 22:44:27.037 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+2016-04-18 22:44:27.037 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+2016-04-18 22:44:27.037 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+2016-04-18 22:44:27.037 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+2016-04-18 22:44:27.037 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.AccessController.doPrivileged(Native Method)
+2016-04-18 22:44:27.037 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+2016-04-18 22:44:27.038 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Dialog.show(Dialog.java:1084)
+2016-04-18 22:44:27.038 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Component.show(Component.java:1673)
+2016-04-18 22:44:27.038 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Component.setVisible(Component.java:1625)
+2016-04-18 22:44:27.038 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Window.setVisible(Window.java:1014)
+2016-04-18 22:44:27.038 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Dialog.setVisible(Dialog.java:1005)
+2016-04-18 22:44:27.038 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at com.onseven.dbvis.n.G.A.R.ਬ(Z:356)
+2016-04-18 22:44:27.039 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at com.onseven.dbvis.DbVisualizerGUI.Ħ(Z:2416)
+2016-04-18 22:44:27.039 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at com.onseven.dbvis.n.I.I$8.execute(Z:3092)
+2016-04-18 22:44:27.039 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at com.onseven.dbvis.n.I.I.ʷ(Z:2562)
+2016-04-18 22:44:27.039 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at com.onseven.dbvis.n.I.I.Ĕ(Z:3130)
+2016-04-18 22:44:27.039 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at com.onseven.dbvis.n.I.I$6.execute(Z:1589)
+2016-04-18 22:44:27.039 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at se.pureit.swing.E.F.actionPerformed(Z:1875)
+2016-04-18 22:44:27.040 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+2016-04-18 22:44:27.040 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+2016-04-18 22:44:27.040 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+2016-04-18 22:44:27.040 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+2016-04-18 22:44:27.040 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+2016-04-18 22:44:27.040 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+2016-04-18 22:44:27.040 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+2016-04-18 22:44:27.041 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Component.processMouseEvent(Component.java:6535)
+2016-04-18 22:44:27.041 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+2016-04-18 22:44:27.041 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Component.processEvent(Component.java:6300)
+2016-04-18 22:44:27.041 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Container.processEvent(Container.java:2236)
+2016-04-18 22:44:27.041 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+2016-04-18 22:44:27.041 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+2016-04-18 22:44:27.041 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Component.dispatchEvent(Component.java:4713)
+2016-04-18 22:44:27.042 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+2016-04-18 22:44:27.042 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+2016-04-18 22:44:27.042 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+2016-04-18 22:44:27.042 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+2016-04-18 22:44:27.042 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+2016-04-18 22:44:27.042 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.Component.dispatchEvent(Component.java:4713)
+2016-04-18 22:44:27.042 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+2016-04-18 22:44:27.043 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue.access$500(EventQueue.java:97)
+2016-04-18 22:44:27.043 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue$3.run(EventQueue.java:709)
+2016-04-18 22:44:27.043 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue$3.run(EventQueue.java:703)
+2016-04-18 22:44:27.043 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.AccessController.doPrivileged(Native Method)
+2016-04-18 22:44:27.043 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+2016-04-18 22:44:27.044 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2016-04-18 22:44:27.044 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue$4.run(EventQueue.java:731)
+2016-04-18 22:44:27.044 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue$4.run(EventQueue.java:729)
+2016-04-18 22:44:27.044 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.AccessController.doPrivileged(Native Method)
+2016-04-18 22:44:27.044 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+2016-04-18 22:44:27.044 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+2016-04-18 22:44:27.045 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+2016-04-18 22:44:27.045 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+2016-04-18 22:44:27.045 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+2016-04-18 22:44:27.045 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2016-04-18 22:44:27.045 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+2016-04-18 22:44:27.045 INFO    97 [AWT-EventQueue-0 - Q.flush] 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2016-04-18 22:45:20.286 INFO    97 [pool-4-thread-2 - Q.flush] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-04-18 22:45:20.287 INFO    97 [pool-4-thread-2 - Q.flush] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-04-18 22:45:20.287 INFO    97 [pool-4-thread-2 - Q.flush] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-04-18 22:45:20.488 INFO    97 [pool-4-thread-2-EventThread - Q.flush] SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+2016-04-18 22:45:20.489 INFO    97 [pool-4-thread-2-EventThread - Q.flush] SLF4J: Defaulting to no-operation MDCAdapter implementation.
+2016-04-18 22:45:20.489 INFO    97 [pool-4-thread-2-EventThread - Q.flush] SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+2016-04-18 22:45:20.549 INFO    97 [ExecutorRunner-pool-3-thread-1 - G.ă] setAutoCommit(true) ignored. Transactions are not supported by driver for: Solr
+2016-04-18 22:45:21.355 INFO    97 [ExecutorRunner-pool-3-thread-1 - AbstractFacade.runConnectionSetup] Exception while caching data types for database: Solr
+com.onseven.dbvis.K.B.P: java.lang.UnsupportedOperationException
+	at com.onseven.dbvis.K.B.Z.run(Z:2363)
+	at com.onseven.dbvis.db.AbstractFacade.getDataTypes(Z:179)
+	at com.onseven.dbvis.db.AbstractFacade.runConnectionSetup(Z:1491)
+	at com.onseven.dbvis.db.A.I.ķ(Z:3512)
+	at com.onseven.dbvis.db.A.B.execute(Z:2933)
+	at com.onseven.dbvis.K.B.Z.ā(Z:2285)
+	at com.onseven.dbvis.K.B.L.Ă(Z:1374)
+	at com.onseven.dbvis.K.B.L.doInBackground(Z:1521)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.UnsupportedOperationException
+	at org.apache.solr.client.solrj.io.sql.DatabaseMetaDataImpl.getTypeInfo(DatabaseMetaDataImpl.java:773)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.onseven.dbvis.h.B.E.ā(Z:482)
+	at com.onseven.dbvis.h.B.F$A.call(Z:1369)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	... 3 more
+2016-04-18 22:46:10.977 INFO    97 [ExecutorRunner-pool-3-thread-1 - G.ă] setAutoCommit(true) ignored. Transactions are not supported by driver for: Solr
+2016-04-18 22:46:44.183 INFO    97 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/dbvis.xml
+2016-04-18 22:46:44.183 INFO    97 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/dbvis.xml-20160418-224304526.tmp
+2016-04-18 22:46:44.201 INFO    97 [AWT-EventQueue-0 - A.ā]    Temp file written: 35528 bytes
+2016-04-18 22:46:44.204 INFO    97 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/dbvis.xml
+2016-04-18 22:46:44.207 INFO    97 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-18 22:46:44.210 INFO    97 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/tablefilters.xml
+2016-04-18 22:46:44.210 INFO    97 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/tablefilters.xml-20160418-224304530.tmp
+2016-04-18 22:46:44.210 INFO    97 [AWT-EventQueue-0 - A.ā]    Temp file written: 93 bytes
+2016-04-18 22:46:44.212 INFO    97 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/tablefilters.xml
+2016-04-18 22:46:44.214 INFO    97 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-18 22:46:44.215 INFO    97 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/favorites.xml
+2016-04-18 22:46:44.216 INFO    97 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/favorites.xml-20160418-224304531.tmp
+2016-04-18 22:46:44.216 INFO    97 [AWT-EventQueue-0 - A.ā]    Temp file written: 86 bytes
+2016-04-18 22:46:44.217 INFO    97 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/favorites.xml
+2016-04-18 22:46:44.219 INFO    97 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-18 22:46:44.221 INFO    97 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-18 22:46:44.221 INFO    97 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/editorstyles91.xml-20160418-224304532.tmp
+2016-04-18 22:46:44.222 INFO    97 [AWT-EventQueue-0 - A.ā]    Temp file written: 1057 bytes
+2016-04-18 22:46:44.223 INFO    97 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/editorstyles91.xml
+2016-04-18 22:46:44.225 INFO    97 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-18 22:46:44.227 INFO    97 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/templates.xml
+2016-04-18 22:46:44.227 INFO    97 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/templates.xml-20160418-224304532.tmp
+2016-04-18 22:46:44.227 INFO    97 [AWT-EventQueue-0 - A.ā]    Temp file written: 155 bytes
+2016-04-18 22:46:44.229 INFO    97 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/templates.xml
+2016-04-18 22:46:44.231 INFO    97 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-18 22:46:44.232 INFO    97 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/workingset.xml
+2016-04-18 22:46:44.232 INFO    97 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/workingset.xml-20160418-224304533.tmp
+2016-04-18 22:46:44.233 INFO    97 [AWT-EventQueue-0 - A.ā]    Temp file written: 88 bytes
+2016-04-18 22:46:44.234 INFO    97 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/workingset.xml
+2016-04-18 22:46:44.236 INFO    97 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-18 22:46:44.237 INFO    97 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/mp.xml
+2016-04-18 22:46:44.238 INFO    97 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/mp.xml-20160418-224304534.tmp
+2016-04-18 22:46:44.238 INFO    97 [AWT-EventQueue-0 - A.ā]    Temp file written: 91 bytes
+2016-04-18 22:46:44.240 INFO    97 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
+2016-04-18 22:46:44.241 INFO    97 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-18 22:46:44.248 INFO    97 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35528, writable: true, readable: true)
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml.bak (length: 155, writable: true, readable: true)
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml.bak (length: 86, writable: true, readable: true)
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-18 22:46:44.249 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml.bak (length: 91, writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak (length: 35528, writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml.bak (length: 1057, writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml.bak (length: 88, writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-18 22:46:44.250 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-18 22:46:44.251 INFO    97 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-18 22:46:44.251 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-18 22:46:44.251 INFO    97 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35528 bytes)
+2016-04-18 22:46:44.257 INFO    97 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-18 22:46:44.339 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-18 22:46:44.340 INFO    97 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-18 22:46:44.340 INFO    97 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-18 22:46:44.343 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-18 22:46:44.343 INFO    97 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-18 22:46:44.344 INFO    97 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-18 22:46:44.346 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-18 22:46:44.346 INFO    97 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-18 22:46:44.347 INFO    97 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-18 22:46:44.350 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-18 22:46:44.350 INFO    97 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-18 22:46:44.351 INFO    97 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-18 22:46:44.354 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-18 22:46:44.354 INFO    97 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-18 22:46:44.355 INFO    97 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-18 22:46:44.357 INFO    97 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-18 22:46:44.357 INFO    97 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-18 22:46:44.358 INFO    97 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-18 22:53:24.947 CONFIG 741 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-18 22:53:24.949 CONFIG 741 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-18 22:53:24.949 CONFIG 741 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-18 22:53:24.950 CONFIG 741 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-18 22:53:24.950 CONFIG 741 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-18 22:53:24.950 CONFIG 741 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-18 22:53:24.950 CONFIG 741 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-18 22:53:24.950 CONFIG 741 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-18 22:53:24.950 CONFIG 741 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-18 22:53:24.951 CONFIG 741 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-18 22:53:24.951 CONFIG 741 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-18 22:53:24.951 CONFIG 741 [AWT-EventQueue-0 - D.ā] SessionId: 741
+2016-04-18 22:53:25.088 INFO   741 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-18 22:53:25.088 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2016-04-18 22:53:25.089 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35528, writable: true, readable: true)
+2016-04-18 22:53:25.089 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml.bak (length: 155, writable: true, readable: true)
+2016-04-18 22:53:25.089 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-18 22:53:25.090 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-18 22:53:25.090 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml.bak (length: 86, writable: true, readable: true)
+2016-04-18 22:53:25.090 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-18 22:53:25.091 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-18 22:53:25.091 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml.bak (length: 91, writable: true, readable: true)
+2016-04-18 22:53:25.091 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-18 22:53:25.092 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak (length: 35528, writable: true, readable: true)
+2016-04-18 22:53:25.092 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml.bak (length: 1057, writable: true, readable: true)
+2016-04-18 22:53:25.093 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-18 22:53:25.093 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml.bak (length: 88, writable: true, readable: true)
+2016-04-18 22:53:25.093 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-18 22:53:25.094 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-18 22:53:25.094 INFO   741 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-18 22:53:25.105 INFO   741 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-18 22:53:25.105 INFO   741 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35528 bytes)
+2016-04-18 22:53:25.174 INFO   741 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-18 22:53:25.370 INFO   741 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-18 22:53:25.370 INFO   741 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-18 22:53:25.371 INFO   741 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-18 22:53:25.375 INFO   741 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-18 22:53:25.375 INFO   741 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-18 22:53:25.377 INFO   741 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-18 22:53:25.379 INFO   741 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-18 22:53:25.379 INFO   741 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-18 22:53:25.381 INFO   741 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-18 22:53:25.385 INFO   741 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-18 22:53:25.385 INFO   741 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-18 22:53:25.387 INFO   741 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-18 22:53:25.393 INFO   741 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-18 22:53:25.393 INFO   741 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-18 22:53:25.394 INFO   741 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-18 22:53:25.396 INFO   741 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-18 22:53:25.396 INFO   741 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-18 22:53:25.397 INFO   741 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-18 22:53:30.436 INFO   741 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 5.941
+2016-04-18 22:53:31.519 INFO   741 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-18 22:53:31.522 INFO   741 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-18 22:53:39.669 INFO   741 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/dbvis.xml
+2016-04-18 22:53:39.670 INFO   741 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/dbvis.xml-20160418-225325097.tmp
+2016-04-18 22:53:39.689 INFO   741 [AWT-EventQueue-0 - A.ā]    Temp file written: 35525 bytes
+2016-04-18 22:53:39.693 INFO   741 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/dbvis.xml
+2016-04-18 22:53:39.697 INFO   741 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-18 22:53:39.700 INFO   741 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/tablefilters.xml
+2016-04-18 22:53:39.701 INFO   741 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/tablefilters.xml-20160418-225325100.tmp
+2016-04-18 22:53:39.701 INFO   741 [AWT-EventQueue-0 - A.ā]    Temp file written: 93 bytes
+2016-04-18 22:53:39.703 INFO   741 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/tablefilters.xml
+2016-04-18 22:53:39.705 INFO   741 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-18 22:53:39.707 INFO   741 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/favorites.xml
+2016-04-18 22:53:39.708 INFO   741 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/favorites.xml-20160418-225325102.tmp
+2016-04-18 22:53:39.708 INFO   741 [AWT-EventQueue-0 - A.ā]    Temp file written: 86 bytes
+2016-04-18 22:53:39.710 INFO   741 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/favorites.xml
+2016-04-18 22:53:39.712 INFO   741 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-18 22:53:39.714 INFO   741 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-18 22:53:39.715 INFO   741 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/editorstyles91.xml-20160418-225325102.tmp
+2016-04-18 22:53:39.715 INFO   741 [AWT-EventQueue-0 - A.ā]    Temp file written: 1057 bytes
+2016-04-18 22:53:39.718 INFO   741 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/editorstyles91.xml
+2016-04-18 22:53:39.720 INFO   741 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-18 22:53:39.722 INFO   741 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/templates.xml
+2016-04-18 22:53:39.723 INFO   741 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/templates.xml-20160418-225325103.tmp
+2016-04-18 22:53:39.723 INFO   741 [AWT-EventQueue-0 - A.ā]    Temp file written: 155 bytes
+2016-04-18 22:53:39.725 INFO   741 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/templates.xml
+2016-04-18 22:53:39.726 INFO   741 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-18 22:53:39.729 INFO   741 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/mp.xml
+2016-04-18 22:53:39.729 INFO   741 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/mp.xml-20160418-225325104.tmp
+2016-04-18 22:53:39.730 INFO   741 [AWT-EventQueue-0 - A.ā]    Temp file written: 91 bytes
+2016-04-18 22:53:39.731 INFO   741 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
+2016-04-18 22:53:39.733 INFO   741 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-18 22:53:39.735 INFO   741 [AWT-EventQueue-0 - DbVisualizerGUI.shutdown] Shutdown time: 0.188

@@ -1,0 +1,15 @@
+#Extended file properties defined by DbVisualizer
+#Mon Apr 18 22:46:11 UTC 2016
+last.execution_count=1
+last.elapsed_time=0.444
+exec.schema=
+file.comment=
+last.execution_time=1461019571382
+file.encoding=UTF-8
+last.database_type=Generic
+last.affected_row_count=4
+exec.catalog=solr\:9983
+last.sql_preview=select fielda, fieldb, min(fieldc), max(fieldc), a
+last.execution_error_count=0
+last.execution_success_count=1
+exec.connection=0
