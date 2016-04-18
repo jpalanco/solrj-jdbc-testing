@@ -13,4 +13,4 @@ before_install:
 - sleep 15
 
 script:
-- bash -c "for x in jisql jython python r-base spark; do docker-compose up $x; done"
+- bash -c 'for x in jisql jython python r-base spark; do docker-compose up $x; done'
