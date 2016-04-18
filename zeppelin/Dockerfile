@@ -1,12 +1,8 @@
 FROM maven:3-jdk-8
 
-RUN apt-get update && apt-get install -y --no-install-recommends npm libfontconfig
+RUN apt-get update && apt-get install -y --no-install-recommends npm libfontconfig && rm -rf /var/lib/apt/lists/* && apt-get clean
 
-RUN git clone https://github.com/apache/incubator-zeppelin.git /opt/zeppelin-src && cd /opt/zeppelin-src && mvn package -pl markdown,shell,jdbc,zeppelin-web,zeppelin-server,zeppelin-distribution -am -Pbuild-distr -DskipTests
-
-RUN bash -c "tar zxvf /opt/zeppelin-src/zeppelin-distribution/target/zeppelin-*-SNAPSHOT.tar.gz -C /opt/"
-
-RUN bash -c "rm -rf /opt/zeppelin-*-SNAPSHOT/conf && rm -rf /opt/zeppelin-*-SNAPSHOT/local-repo && rm -rf /opt/zeppelin-*-SNAPSHOT/notebook && mkdir -p /opt/zeppelin_data"
+RUN git clone https://github.com/apache/incubator-zeppelin.git /opt/zeppelin-src && cd /opt/zeppelin-src && mvn package -pl markdown,shell,jdbc,zeppelin-web,zeppelin-server,zeppelin-distribution -am -Pbuild-distr -DskipTests && bash -c "tar zxvf /opt/zeppelin-src/zeppelin-distribution/target/zeppelin-*-SNAPSHOT.tar.gz -C /opt/" && bash -c "rm -rf /opt/zeppelin-*-SNAPSHOT/conf && rm -rf /opt/zeppelin-*-SNAPSHOT/local-repo && rm -rf /opt/zeppelin-*-SNAPSHOT/notebook && mkdir -p /opt/zeppelin_data"
 
 ADD conf /opt/zeppelin_data/conf
 ADD notebook /opt/zeppelin_data/notebook
