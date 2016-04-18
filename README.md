@@ -20,6 +20,8 @@ For one of the following do `docker-compose up ITEM`
 ### Interactive testing
 For one of the following do `docker-compose up -d ITEM`
 
+* dbvisualizer
+  * Note: before running dbvisualizer the X11_DISPLAY environment variable must be set
 * rstudio (port 8787)
 * zeppelin (port 8080)
 
@@ -31,3 +33,4 @@ To get the dynamic port, `docker-compose port ITEM PORT`
 3. `docker-compose up -d solr`
 4. Test your SQL client by pointing to `jdbc:solr://docker:9983?collection=test`
 5. `docker-compose down -v`
+
