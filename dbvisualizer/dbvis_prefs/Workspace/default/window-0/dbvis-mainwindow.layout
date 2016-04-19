@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LayoutPersistence>
     <DockableBarManager frameState="0" persistenceName="0" version="20">
-        <UndockedBounds height="760" width="1014" x="448" y="205"/>
+        <UndockedBounds height="720" width="964" x="448" y="205"/>
         <DockableBarContext currentDockSide="1" currentMode="2"
             dockId="0" dockedHeight="0" dockedWidth="0" initIndex="1"
             initMode="2" initPosition="1" initSide="1" key="Main Toolbar">
@@ -17,7 +17,7 @@
         </DockableBarContainer>
     </DockableBarManager>
     <DockingManager frameState="0" persistenceName="1" version="20">
-        <Bounds height="760" width="1014" x="448" y="205"/>
+        <Bounds height="720" width="964" x="448" y="205"/>
         <DockContext autohideHeight="0" autohideWidth="0" available="1"
             canMode="15" currentDockSide="8" currentMode="4"
             dockId="62208" dockedHeight="0" dockedWidth="0"
@@ -26,7 +26,7 @@
             <InitUndockedBounds height="500" width="800" x="-1" y="-1"/>
             <DockPreviousState dockId="62208" fcId="24642" index="0"
                 mode="4" rootId="2" side="8" type="close">
-                <Bounds height="659" width="1014" x="0" y="0"/>
+                <Bounds height="619" width="964" x="0" y="0"/>
                 <DockChild dockId="12765"/>
                 <DockChild dockId="62855"/>
                 <DockChild dockId="62208"/>
@@ -44,7 +44,7 @@
             <InitUndockedBounds height="500" width="800" x="-1" y="-1"/>
             <DockPreviousState dockId="12765" fcId="24642" index="0"
                 mode="4" rootId="2" side="8" type="close">
-                <Bounds height="659" width="1014" x="0" y="0"/>
+                <Bounds height="619" width="964" x="0" y="0"/>
                 <DockChild dockId="12765"/>
                 <DockChild dockId="62855"/>
                 <DockChild dockId="62208"/>
@@ -62,7 +62,7 @@
             <InitUndockedBounds height="500" width="800" x="-1" y="-1"/>
             <DockPreviousState dockId="62855" fcId="24642" index="0"
                 mode="4" rootId="2" side="8" type="close">
-                <Bounds height="659" width="1014" x="0" y="0"/>
+                <Bounds height="619" width="964" x="0" y="0"/>
                 <DockChild dockId="12765"/>
                 <DockChild dockId="62855"/>
                 <DockChild dockId="62208"/>

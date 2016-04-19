@@ -322,3 +322,792 @@ Caused by: java.lang.UnsupportedOperationException
 2016-04-18 22:53:39.731 INFO   741 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
 2016-04-18 22:53:39.733 INFO   741 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
 2016-04-18 22:53:39.735 INFO   741 [AWT-EventQueue-0 - DbVisualizerGUI.shutdown] Shutdown time: 0.188
+2016-04-19 15:12:41.386 CONFIG 583 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-19 15:12:41.391 CONFIG 583 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-19 15:12:41.392 CONFIG 583 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-19 15:12:41.393 CONFIG 583 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-19 15:12:41.394 CONFIG 583 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-19 15:12:41.395 CONFIG 583 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-19 15:12:41.396 CONFIG 583 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-19 15:12:41.397 CONFIG 583 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-19 15:12:41.398 CONFIG 583 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-19 15:12:41.399 CONFIG 583 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-19 15:12:41.400 CONFIG 583 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-19 15:12:41.402 CONFIG 583 [AWT-EventQueue-0 - D.ā] SessionId: 583
+2016-04-19 15:12:41.682 INFO   583 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-19 15:12:41.686 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-19 15:12:41.690 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35183, writable: true, readable: true)
+2016-04-19 15:12:41.696 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak (length: 34102, writable: true, readable: true)
+2016-04-19 15:12:41.699 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak2 (length: 35022, writable: true, readable: true)
+2016-04-19 15:12:41.704 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-19 15:12:41.710 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml.bak (length: 1057, writable: true, readable: true)
+2016-04-19 15:12:41.714 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-19 15:12:41.719 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml.bak (length: 86, writable: true, readable: true)
+2016-04-19 15:12:41.723 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-19 15:12:41.726 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-19 15:12:41.731 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-19 15:12:41.736 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml.bak (length: 91, writable: true, readable: true)
+2016-04-19 15:12:41.741 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-19 15:12:41.746 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2016-04-19 15:12:41.751 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-19 15:12:41.755 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml.bak (length: 155, writable: true, readable: true)
+2016-04-19 15:12:41.760 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-19 15:12:41.765 INFO   583 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml.bak (length: 88, writable: true, readable: true)
+2016-04-19 15:12:41.788 INFO   583 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:12:41.793 INFO   583 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35183 bytes)
+2016-04-19 15:12:41.900 WARN   583 [AWT-EventQueue-0 - A.Ć]    Error loading/parsing file: /root/.dbvis/config70/dbvis.xml. Will look for a backup file
+com.onseven.dbvis.e.A.S: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.onseven.dbvis.e.A.A.ā(Z:2289)
+	at com.onseven.dbvis.e.A.A.Ć(Z:3151)
+	at com.onseven.dbvis.e.A.E.Č(Z:1265)
+	at com.onseven.dbvis.e.B.A.A.ĉ(Z:3526)
+	at com.onseven.dbvis.D.initialize(Z:666)
+	at com.onseven.dbvis.DbVisualizerGUI.ā(Z:2840)
+	at com.onseven.dbvis.DbVisualizerGUI.initialize(Z:3089)
+	at com.onseven.dbvis.DbVisualizerGUI$1.run(Z:3152)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.onseven.dbvis.e.A.A.ă(Z:1881)
+	at com.onseven.dbvis.e.A.A.ā(Z:221)
+	... 21 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 307; columnNumber: 108; Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:440)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:256)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 25 more
+2016-04-19 15:12:41.914 INFO   583 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:12:41.918 INFO   583 [AWT-EventQueue-0 - A.č]       Found backup file: /root/.dbvis/config70/dbvis.xml.bak (34102 bytes). Will try load it
+2016-04-19 15:12:41.920 INFO   583 [AWT-EventQueue-0 - A.č]       Load/parse backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:12:41.945 INFO   583 [AWT-EventQueue-0 - A.č]       Copy backup file to: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:12:42.251 INFO   583 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:12:42.265 INFO   583 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-19 15:12:42.269 INFO   583 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:12:42.278 INFO   583 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:12:42.284 INFO   583 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-19 15:12:42.288 INFO   583 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:12:42.298 INFO   583 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:12:42.307 INFO   583 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-19 15:12:42.313 INFO   583 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:12:42.326 INFO   583 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:12:42.332 INFO   583 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-19 15:12:42.336 INFO   583 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:12:42.349 INFO   583 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:12:42.356 INFO   583 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-19 15:12:42.361 INFO   583 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:12:42.370 INFO   583 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:12:42.375 INFO   583 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-19 15:12:42.379 INFO   583 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:12:58.601 INFO   583 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 17.788
+2016-04-19 15:12:59.636 INFO   583 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-19 15:12:59.639 INFO   583 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-19 15:13:13.662 WARN   583 [AWT-EventQueue-0 - A.ā] Ignoring save of: /root/.dbvis/config70/dbvis.xml due to errors at load
+2016-04-19 15:13:13.665 INFO   583 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:13:13.667 INFO   583 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/tablefilters.xml-20160419-151241775.tmp
+2016-04-19 15:13:13.681 INFO   583 [AWT-EventQueue-0 - A.ā]    Temp file written: 93 bytes
+2016-04-19 15:13:13.682 INFO   583 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:13:13.690 INFO   583 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:13:13.702 INFO   583 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:13:13.705 INFO   583 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/favorites.xml-20160419-151241778.tmp
+2016-04-19 15:13:13.708 INFO   583 [AWT-EventQueue-0 - A.ā]    Temp file written: 86 bytes
+2016-04-19 15:13:13.710 INFO   583 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:13:13.719 INFO   583 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:13:13.729 INFO   583 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:13:13.732 INFO   583 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/editorstyles91.xml-20160419-151241779.tmp
+2016-04-19 15:13:13.736 INFO   583 [AWT-EventQueue-0 - A.ā]    Temp file written: 1057 bytes
+2016-04-19 15:13:13.738 INFO   583 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:13:13.747 INFO   583 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:13:13.756 INFO   583 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:13:13.759 INFO   583 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/templates.xml-20160419-151241781.tmp
+2016-04-19 15:13:13.763 INFO   583 [AWT-EventQueue-0 - A.ā]    Temp file written: 155 bytes
+2016-04-19 15:13:13.764 INFO   583 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/templates.xml
+2016-04-19 15:13:13.772 INFO   583 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:13:13.781 INFO   583 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:13:13.783 INFO   583 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/workingset.xml-20160419-151241783.tmp
+2016-04-19 15:13:13.785 INFO   583 [AWT-EventQueue-0 - A.ā]    Temp file written: 88 bytes
+2016-04-19 15:13:13.787 INFO   583 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:13:13.795 INFO   583 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:13:13.803 INFO   583 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:13:13.805 INFO   583 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/mp.xml-20160419-151241785.tmp
+2016-04-19 15:13:13.807 INFO   583 [AWT-EventQueue-0 - A.ā]    Temp file written: 91 bytes
+2016-04-19 15:13:13.808 INFO   583 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
+2016-04-19 15:13:13.816 INFO   583 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:13:15.772 INFO   583 [AWT-EventQueue-0 - DbVisualizerGUI.shutdown] Shutdown time: 2.313
+2016-04-19 15:13:45.335 CONFIG  79 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-19 15:13:45.343 CONFIG  79 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-19 15:13:45.344 CONFIG  79 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-19 15:13:45.345 CONFIG  79 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-19 15:13:45.346 CONFIG  79 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-19 15:13:45.347 CONFIG  79 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-19 15:13:45.348 CONFIG  79 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-19 15:13:45.349 CONFIG  79 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-19 15:13:45.350 CONFIG  79 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-19 15:13:45.351 CONFIG  79 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-19 15:13:45.352 CONFIG  79 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-19 15:13:45.353 CONFIG  79 [AWT-EventQueue-0 - D.ā] SessionId: 79
+2016-04-19 15:13:45.664 INFO    79 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-19 15:13:45.669 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-19 15:13:45.674 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35183, writable: true, readable: true)
+2016-04-19 15:13:45.680 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak (length: 34102, writable: true, readable: true)
+2016-04-19 15:13:45.685 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak2 (length: 35022, writable: true, readable: true)
+2016-04-19 15:13:45.690 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-19 15:13:45.695 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml.bak (length: 1057, writable: true, readable: true)
+2016-04-19 15:13:45.700 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-19 15:13:45.706 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml.bak (length: 86, writable: true, readable: true)
+2016-04-19 15:13:45.710 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-19 15:13:45.714 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-19 15:13:45.718 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-19 15:13:45.724 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml.bak (length: 91, writable: true, readable: true)
+2016-04-19 15:13:45.730 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-19 15:13:45.736 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2016-04-19 15:13:45.742 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-19 15:13:45.748 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml.bak (length: 155, writable: true, readable: true)
+2016-04-19 15:13:45.752 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-19 15:13:45.757 INFO    79 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml.bak (length: 88, writable: true, readable: true)
+2016-04-19 15:13:45.777 INFO    79 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:13:45.782 INFO    79 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35183 bytes)
+2016-04-19 15:13:45.885 WARN    79 [AWT-EventQueue-0 - A.Ć]    Error loading/parsing file: /root/.dbvis/config70/dbvis.xml. Will look for a backup file
+com.onseven.dbvis.e.A.S: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.onseven.dbvis.e.A.A.ā(Z:2289)
+	at com.onseven.dbvis.e.A.A.Ć(Z:3151)
+	at com.onseven.dbvis.e.A.E.Č(Z:1265)
+	at com.onseven.dbvis.e.B.A.A.ĉ(Z:3526)
+	at com.onseven.dbvis.D.initialize(Z:666)
+	at com.onseven.dbvis.DbVisualizerGUI.ā(Z:2840)
+	at com.onseven.dbvis.DbVisualizerGUI.initialize(Z:3089)
+	at com.onseven.dbvis.DbVisualizerGUI$1.run(Z:3152)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.onseven.dbvis.e.A.A.ă(Z:1881)
+	at com.onseven.dbvis.e.A.A.ā(Z:221)
+	... 21 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 307; columnNumber: 108; Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:440)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:256)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 25 more
+2016-04-19 15:13:45.899 INFO    79 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:13:45.904 INFO    79 [AWT-EventQueue-0 - A.č]       Found backup file: /root/.dbvis/config70/dbvis.xml.bak (34102 bytes). Will try load it
+2016-04-19 15:13:45.907 INFO    79 [AWT-EventQueue-0 - A.č]       Load/parse backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:13:45.936 INFO    79 [AWT-EventQueue-0 - A.č]       Copy backup file to: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:13:46.257 INFO    79 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:13:46.264 INFO    79 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-19 15:13:46.268 INFO    79 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:13:46.278 INFO    79 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:13:46.285 INFO    79 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-19 15:13:46.291 INFO    79 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:13:46.303 INFO    79 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:13:46.310 INFO    79 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-19 15:13:46.316 INFO    79 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:13:46.327 INFO    79 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:13:46.334 INFO    79 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-19 15:13:46.340 INFO    79 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:13:46.357 INFO    79 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:13:46.374 INFO    79 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-19 15:13:46.379 INFO    79 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:13:46.389 INFO    79 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:13:46.395 INFO    79 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-19 15:13:46.400 INFO    79 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:13:58.123 INFO    79 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 13.387
+2016-04-19 15:13:59.001 INFO    79 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-19 15:13:59.005 INFO    79 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-19 15:14:06.847 WARN    79 [AWT-EventQueue-0 - A.ā] Ignoring save of: /root/.dbvis/config70/dbvis.xml due to errors at load
+2016-04-19 15:14:06.850 INFO    79 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:14:06.853 INFO    79 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/tablefilters.xml-20160419-151345768.tmp
+2016-04-19 15:14:06.873 INFO    79 [AWT-EventQueue-0 - A.ā]    Temp file written: 93 bytes
+2016-04-19 15:14:06.874 INFO    79 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:14:06.883 INFO    79 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:14:06.892 INFO    79 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:14:06.895 INFO    79 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/favorites.xml-20160419-151345769.tmp
+2016-04-19 15:14:06.897 INFO    79 [AWT-EventQueue-0 - A.ā]    Temp file written: 86 bytes
+2016-04-19 15:14:06.899 INFO    79 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:14:06.907 INFO    79 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:14:06.918 INFO    79 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:14:06.920 INFO    79 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/editorstyles91.xml-20160419-151345771.tmp
+2016-04-19 15:14:06.925 INFO    79 [AWT-EventQueue-0 - A.ā]    Temp file written: 1057 bytes
+2016-04-19 15:14:06.926 INFO    79 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:14:06.935 INFO    79 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:14:06.943 INFO    79 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:14:06.946 INFO    79 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/templates.xml-20160419-151345772.tmp
+2016-04-19 15:14:06.949 INFO    79 [AWT-EventQueue-0 - A.ā]    Temp file written: 155 bytes
+2016-04-19 15:14:06.950 INFO    79 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/templates.xml
+2016-04-19 15:14:06.957 INFO    79 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:14:06.968 INFO    79 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:14:06.971 INFO    79 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/mp.xml-20160419-151345774.tmp
+2016-04-19 15:14:06.973 INFO    79 [AWT-EventQueue-0 - A.ā]    Temp file written: 91 bytes
+2016-04-19 15:14:06.975 INFO    79 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
+2016-04-19 15:14:06.983 INFO    79 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:14:09.532 INFO    79 [AWT-EventQueue-0 - DbVisualizerGUI.shutdown] Shutdown time: 2.888
+2016-04-19 15:14:33.777 CONFIG  61 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-19 15:14:33.781 CONFIG  61 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-19 15:14:33.782 CONFIG  61 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-19 15:14:33.784 CONFIG  61 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-19 15:14:33.785 CONFIG  61 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-19 15:14:33.785 CONFIG  61 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-19 15:14:33.786 CONFIG  61 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-19 15:14:33.787 CONFIG  61 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-19 15:14:33.788 CONFIG  61 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-19 15:14:33.789 CONFIG  61 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-19 15:14:33.790 CONFIG  61 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-19 15:14:33.791 CONFIG  61 [AWT-EventQueue-0 - D.ā] SessionId: 61
+2016-04-19 15:14:34.034 INFO    61 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-19 15:14:34.038 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-19 15:14:34.043 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35183, writable: true, readable: true)
+2016-04-19 15:14:34.049 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak (length: 34102, writable: true, readable: true)
+2016-04-19 15:14:34.054 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak2 (length: 35022, writable: true, readable: true)
+2016-04-19 15:14:34.060 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-19 15:14:34.065 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml.bak (length: 1057, writable: true, readable: true)
+2016-04-19 15:14:34.070 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-19 15:14:34.074 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml.bak (length: 86, writable: true, readable: true)
+2016-04-19 15:14:34.079 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-19 15:14:34.083 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-19 15:14:34.088 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-19 15:14:34.093 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml.bak (length: 91, writable: true, readable: true)
+2016-04-19 15:14:34.098 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-19 15:14:34.105 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2016-04-19 15:14:34.110 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-19 15:14:34.116 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml.bak (length: 155, writable: true, readable: true)
+2016-04-19 15:14:34.121 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-19 15:14:34.126 INFO    61 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml.bak (length: 88, writable: true, readable: true)
+2016-04-19 15:14:34.146 INFO    61 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:14:34.153 INFO    61 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35183 bytes)
+2016-04-19 15:14:34.264 WARN    61 [AWT-EventQueue-0 - A.Ć]    Error loading/parsing file: /root/.dbvis/config70/dbvis.xml. Will look for a backup file
+com.onseven.dbvis.e.A.S: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.onseven.dbvis.e.A.A.ā(Z:2289)
+	at com.onseven.dbvis.e.A.A.Ć(Z:3151)
+	at com.onseven.dbvis.e.A.E.Č(Z:1265)
+	at com.onseven.dbvis.e.B.A.A.ĉ(Z:3526)
+	at com.onseven.dbvis.D.initialize(Z:666)
+	at com.onseven.dbvis.DbVisualizerGUI.ā(Z:2840)
+	at com.onseven.dbvis.DbVisualizerGUI.initialize(Z:3089)
+	at com.onseven.dbvis.DbVisualizerGUI$1.run(Z:3152)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.onseven.dbvis.e.A.A.ă(Z:1881)
+	at com.onseven.dbvis.e.A.A.ā(Z:221)
+	... 21 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 307; columnNumber: 108; Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:440)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:256)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 25 more
+2016-04-19 15:14:34.275 INFO    61 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:14:34.279 INFO    61 [AWT-EventQueue-0 - A.č]       Found backup file: /root/.dbvis/config70/dbvis.xml.bak (34102 bytes). Will try load it
+2016-04-19 15:14:34.281 INFO    61 [AWT-EventQueue-0 - A.č]       Load/parse backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:14:34.311 INFO    61 [AWT-EventQueue-0 - A.č]       Copy backup file to: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:14:34.662 INFO    61 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:14:34.668 INFO    61 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-19 15:14:34.672 INFO    61 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:14:34.681 INFO    61 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:14:34.686 INFO    61 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-19 15:14:34.689 INFO    61 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:14:34.700 INFO    61 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:14:34.707 INFO    61 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-19 15:14:34.713 INFO    61 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:14:34.723 INFO    61 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:14:34.728 INFO    61 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-19 15:14:34.731 INFO    61 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:14:34.745 INFO    61 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:14:34.750 INFO    61 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-19 15:14:34.754 INFO    61 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:14:34.761 INFO    61 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:14:34.766 INFO    61 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-19 15:14:34.769 INFO    61 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:14:43.513 INFO    61 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 10.262
+2016-04-19 15:14:44.449 INFO    61 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-19 15:14:44.453 INFO    61 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-19 15:16:11.645 CONFIG 674 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-19 15:16:11.650 CONFIG 674 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-19 15:16:11.651 CONFIG 674 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-19 15:16:11.652 CONFIG 674 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-19 15:16:11.653 CONFIG 674 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-19 15:16:11.654 CONFIG 674 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-19 15:16:11.655 CONFIG 674 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-19 15:16:11.655 CONFIG 674 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-19 15:16:11.656 CONFIG 674 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-19 15:16:11.657 CONFIG 674 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-19 15:16:11.658 CONFIG 674 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-19 15:16:11.660 CONFIG 674 [AWT-EventQueue-0 - D.ā] SessionId: 674
+2016-04-19 15:16:11.906 INFO   674 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-19 15:16:11.911 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-19 15:16:11.916 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35183, writable: true, readable: true)
+2016-04-19 15:16:11.926 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak (length: 34102, writable: true, readable: true)
+2016-04-19 15:16:11.935 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak2 (length: 35022, writable: true, readable: true)
+2016-04-19 15:16:11.941 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-19 15:16:11.947 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml.bak (length: 1057, writable: true, readable: true)
+2016-04-19 15:16:11.953 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-19 15:16:11.960 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml.bak (length: 86, writable: true, readable: true)
+2016-04-19 15:16:11.967 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-19 15:16:11.972 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-19 15:16:11.977 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-19 15:16:11.982 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml.bak (length: 91, writable: true, readable: true)
+2016-04-19 15:16:11.987 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-19 15:16:11.992 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2016-04-19 15:16:11.996 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-19 15:16:12.002 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml.bak (length: 155, writable: true, readable: true)
+2016-04-19 15:16:12.007 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-19 15:16:12.013 INFO   674 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml.bak (length: 88, writable: true, readable: true)
+2016-04-19 15:16:12.037 INFO   674 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:16:12.043 INFO   674 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35183 bytes)
+2016-04-19 15:16:12.141 WARN   674 [AWT-EventQueue-0 - A.Ć]    Error loading/parsing file: /root/.dbvis/config70/dbvis.xml. Will look for a backup file
+com.onseven.dbvis.e.A.S: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.onseven.dbvis.e.A.A.ā(Z:2289)
+	at com.onseven.dbvis.e.A.A.Ć(Z:3151)
+	at com.onseven.dbvis.e.A.E.Č(Z:1265)
+	at com.onseven.dbvis.e.B.A.A.ĉ(Z:3526)
+	at com.onseven.dbvis.D.initialize(Z:666)
+	at com.onseven.dbvis.DbVisualizerGUI.ā(Z:2840)
+	at com.onseven.dbvis.DbVisualizerGUI.initialize(Z:3089)
+	at com.onseven.dbvis.DbVisualizerGUI$1.run(Z:3152)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.onseven.dbvis.e.A.A.ă(Z:1881)
+	at com.onseven.dbvis.e.A.A.ā(Z:221)
+	... 21 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 307; columnNumber: 108; Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:440)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:256)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 25 more
+2016-04-19 15:16:12.153 INFO   674 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:16:12.157 INFO   674 [AWT-EventQueue-0 - A.č]       Found backup file: /root/.dbvis/config70/dbvis.xml.bak (34102 bytes). Will try load it
+2016-04-19 15:16:12.159 INFO   674 [AWT-EventQueue-0 - A.č]       Load/parse backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:16:12.182 INFO   674 [AWT-EventQueue-0 - A.č]       Copy backup file to: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:16:12.447 INFO   674 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:16:12.453 INFO   674 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-19 15:16:12.457 INFO   674 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:16:12.466 INFO   674 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:16:12.471 INFO   674 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-19 15:16:12.475 INFO   674 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:16:12.485 INFO   674 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:16:12.490 INFO   674 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-19 15:16:12.496 INFO   674 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:16:12.505 INFO   674 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:16:12.510 INFO   674 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-19 15:16:12.514 INFO   674 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:16:12.528 INFO   674 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:16:12.534 INFO   674 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-19 15:16:12.538 INFO   674 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:16:12.546 INFO   674 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:16:12.551 INFO   674 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-19 15:16:12.555 INFO   674 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:16:20.563 INFO   674 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 9.532
+2016-04-19 15:16:21.606 INFO   674 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-19 15:16:21.610 INFO   674 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-19 15:16:24.157 WARN   674 [AWT-EventQueue-0 - A.ā] Ignoring save of: /root/.dbvis/config70/dbvis.xml due to errors at load
+2016-04-19 15:16:24.159 INFO   674 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:16:24.161 INFO   674 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/tablefilters.xml-20160419-151612025.tmp
+2016-04-19 15:16:24.175 INFO   674 [AWT-EventQueue-0 - A.ā]    Temp file written: 93 bytes
+2016-04-19 15:16:24.176 INFO   674 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:16:24.184 INFO   674 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:16:24.195 INFO   674 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:16:24.197 INFO   674 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/favorites.xml-20160419-151612029.tmp
+2016-04-19 15:16:24.200 INFO   674 [AWT-EventQueue-0 - A.ā]    Temp file written: 86 bytes
+2016-04-19 15:16:24.201 INFO   674 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:16:24.210 INFO   674 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:16:24.219 INFO   674 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:16:24.222 INFO   674 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/editorstyles91.xml-20160419-151612031.tmp
+2016-04-19 15:16:24.226 INFO   674 [AWT-EventQueue-0 - A.ā]    Temp file written: 1057 bytes
+2016-04-19 15:16:24.228 INFO   674 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:16:24.237 INFO   674 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:16:24.246 INFO   674 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:16:24.249 INFO   674 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/templates.xml-20160419-151612032.tmp
+2016-04-19 15:16:24.253 INFO   674 [AWT-EventQueue-0 - A.ā]    Temp file written: 155 bytes
+2016-04-19 15:16:24.254 INFO   674 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/templates.xml
+2016-04-19 15:16:24.263 INFO   674 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:16:24.273 INFO   674 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:16:24.276 INFO   674 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/mp.xml-20160419-151612034.tmp
+2016-04-19 15:16:24.278 INFO   674 [AWT-EventQueue-0 - A.ā]    Temp file written: 91 bytes
+2016-04-19 15:16:24.280 INFO   674 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
+2016-04-19 15:16:24.288 INFO   674 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:16:27.837 INFO   674 [AWT-EventQueue-0 - DbVisualizerGUI.shutdown] Shutdown time: 3.873
+2016-04-19 15:17:43.539 CONFIG 586 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-19 15:17:43.544 CONFIG 586 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-19 15:17:43.545 CONFIG 586 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-19 15:17:43.546 CONFIG 586 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-19 15:17:43.547 CONFIG 586 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-19 15:17:43.547 CONFIG 586 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-19 15:17:43.548 CONFIG 586 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-19 15:17:43.549 CONFIG 586 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-19 15:17:43.550 CONFIG 586 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-19 15:17:43.550 CONFIG 586 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-19 15:17:43.552 CONFIG 586 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-19 15:17:43.553 CONFIG 586 [AWT-EventQueue-0 - D.ā] SessionId: 586
+2016-04-19 15:17:43.750 INFO   586 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-19 15:17:43.753 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-19 15:17:43.756 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak (length: 34102, writable: true, readable: true)
+2016-04-19 15:17:43.760 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.bak2 (length: 35022, writable: true, readable: true)
+2016-04-19 15:17:43.763 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.orig (length: 34102, writable: true, readable: true)
+2016-04-19 15:17:43.767 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-19 15:17:43.770 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml.bak (length: 1057, writable: true, readable: true)
+2016-04-19 15:17:43.774 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-19 15:17:43.777 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml.bak (length: 86, writable: true, readable: true)
+2016-04-19 15:17:43.780 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-19 15:17:43.782 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-19 15:17:43.786 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-19 15:17:43.790 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml.bak (length: 91, writable: true, readable: true)
+2016-04-19 15:17:43.793 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-19 15:17:43.797 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2016-04-19 15:17:43.800 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-19 15:17:43.804 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml.bak (length: 155, writable: true, readable: true)
+2016-04-19 15:17:43.808 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-19 15:17:43.812 INFO   586 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml.bak (length: 88, writable: true, readable: true)
+2016-04-19 15:17:43.835 INFO   586 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:17:43.836 INFO   586 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:17:43.840 INFO   586 [AWT-EventQueue-0 - A.č]       Found backup file: /root/.dbvis/config70/dbvis.xml.bak (34102 bytes). Will try load it
+2016-04-19 15:17:43.842 INFO   586 [AWT-EventQueue-0 - A.č]       Load/parse backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:17:43.943 INFO   586 [AWT-EventQueue-0 - A.č]       Copy backup file to: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:17:44.217 INFO   586 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:17:44.222 INFO   586 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-19 15:17:44.227 INFO   586 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:17:44.235 INFO   586 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:17:44.239 INFO   586 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-19 15:17:44.242 INFO   586 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:17:44.250 INFO   586 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:17:44.255 INFO   586 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-19 15:17:44.260 INFO   586 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:17:44.267 INFO   586 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:17:44.271 INFO   586 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-19 15:17:44.274 INFO   586 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:17:44.285 INFO   586 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:17:44.289 INFO   586 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-19 15:17:44.292 INFO   586 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:17:44.311 INFO   586 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:17:44.314 INFO   586 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-19 15:17:44.318 INFO   586 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:17:50.942 INFO   586 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 8.041
+2016-04-19 15:17:52.110 INFO   586 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-19 15:17:52.119 INFO   586 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-19 15:17:52.778 INFO   586 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:17:52.781 INFO   586 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/dbvis.xml-20160419-151743817.tmp
+2016-04-19 15:17:52.811 INFO   586 [AWT-EventQueue-0 - A.ā]    Temp file written: 33994 bytes
+2016-04-19 15:17:52.813 INFO   586 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:17:52.822 INFO   586 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:17:52.834 INFO   586 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:17:52.836 INFO   586 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/tablefilters.xml-20160419-151743822.tmp
+2016-04-19 15:17:52.839 INFO   586 [AWT-EventQueue-0 - A.ā]    Temp file written: 93 bytes
+2016-04-19 15:17:52.840 INFO   586 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:17:52.849 INFO   586 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:17:52.859 INFO   586 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:17:52.862 INFO   586 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/favorites.xml-20160419-151743827.tmp
+2016-04-19 15:17:52.867 INFO   586 [AWT-EventQueue-0 - A.ā]    Temp file written: 86 bytes
+2016-04-19 15:17:52.869 INFO   586 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:17:52.878 INFO   586 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:17:52.887 INFO   586 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:17:52.892 INFO   586 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/editorstyles91.xml-20160419-151743828.tmp
+2016-04-19 15:17:52.900 INFO   586 [AWT-EventQueue-0 - A.ā]    Temp file written: 1057 bytes
+2016-04-19 15:17:52.902 INFO   586 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:17:52.910 INFO   586 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:17:52.921 INFO   586 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:17:52.924 INFO   586 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/templates.xml-20160419-151743830.tmp
+2016-04-19 15:17:52.928 INFO   586 [AWT-EventQueue-0 - A.ā]    Temp file written: 155 bytes
+2016-04-19 15:17:52.930 INFO   586 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/templates.xml
+2016-04-19 15:17:52.938 INFO   586 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:17:52.948 INFO   586 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:17:52.950 INFO   586 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/mp.xml-20160419-151743832.tmp
+2016-04-19 15:17:52.953 INFO   586 [AWT-EventQueue-0 - A.ā]    Temp file written: 91 bytes
+2016-04-19 15:17:52.954 INFO   586 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
+2016-04-19 15:17:52.964 INFO   586 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:17:52.973 INFO   586 [AWT-EventQueue-0 - DbVisualizerGUI.shutdown] Shutdown time: 0.367
+2016-04-19 15:18:34.402 CONFIG 836 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-19 15:18:34.407 CONFIG 836 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-19 15:18:34.408 CONFIG 836 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-19 15:18:34.409 CONFIG 836 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-19 15:18:34.410 CONFIG 836 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-19 15:18:34.411 CONFIG 836 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-19 15:18:34.412 CONFIG 836 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-19 15:18:34.413 CONFIG 836 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-19 15:18:34.413 CONFIG 836 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-19 15:18:34.415 CONFIG 836 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-19 15:18:34.416 CONFIG 836 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-19 15:18:34.417 CONFIG 836 [AWT-EventQueue-0 - D.ā] SessionId: 836
+2016-04-19 15:18:34.702 INFO   836 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-19 15:18:34.706 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-19 15:18:34.711 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35183, writable: true, readable: true)
+2016-04-19 15:18:34.716 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.orig (length: 34102, writable: true, readable: true)
+2016-04-19 15:18:34.720 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-19 15:18:34.727 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-19 15:18:34.733 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-19 15:18:34.740 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-19 15:18:34.747 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-19 15:18:34.759 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-19 15:18:34.771 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-19 15:18:34.779 INFO   836 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-19 15:18:34.801 INFO   836 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:18:34.808 INFO   836 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35183 bytes)
+2016-04-19 15:18:34.908 WARN   836 [AWT-EventQueue-0 - A.Ć]    Error loading/parsing file: /root/.dbvis/config70/dbvis.xml. Will look for a backup file
+com.onseven.dbvis.e.A.S: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.onseven.dbvis.e.A.A.ā(Z:2289)
+	at com.onseven.dbvis.e.A.A.Ć(Z:3151)
+	at com.onseven.dbvis.e.A.E.Č(Z:1265)
+	at com.onseven.dbvis.e.B.A.A.ĉ(Z:3526)
+	at com.onseven.dbvis.D.initialize(Z:666)
+	at com.onseven.dbvis.DbVisualizerGUI.ā(Z:2840)
+	at com.onseven.dbvis.DbVisualizerGUI.initialize(Z:3089)
+	at com.onseven.dbvis.DbVisualizerGUI$1.run(Z:3152)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.jdom2.input.JDOMParseException: Error on line 307: Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.onseven.dbvis.e.A.A.ă(Z:1881)
+	at com.onseven.dbvis.e.A.A.ā(Z:221)
+	... 21 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 307; columnNumber: 108; Open quote is expected for attribute "type" associated with an  element type  "Class".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:440)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:256)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 25 more
+2016-04-19 15:18:34.925 INFO   836 [AWT-EventQueue-0 - A.č]    Looking for backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:18:34.927 INFO   836 [AWT-EventQueue-0 - A.č]       No backup file found or it is zero length: /root/.dbvis/config70/dbvis.xml.bak. Will use default setup
+2016-04-19 15:18:35.032 INFO   836 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:18:35.039 INFO   836 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-19 15:18:35.043 INFO   836 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:18:35.058 INFO   836 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:18:35.065 INFO   836 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-19 15:18:35.069 INFO   836 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:18:35.079 INFO   836 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:18:35.086 INFO   836 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-19 15:18:35.093 INFO   836 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:18:35.105 INFO   836 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:18:35.111 INFO   836 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-19 15:18:35.115 INFO   836 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:18:35.127 INFO   836 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:18:35.134 INFO   836 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-19 15:18:35.138 INFO   836 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:18:35.152 INFO   836 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:18:35.158 INFO   836 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-19 15:18:35.161 INFO   836 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:18:51.516 INFO   836 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 17.714
+2016-04-19 15:18:52.975 INFO   836 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-19 15:18:52.980 INFO   836 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-19 15:20:33.392 CONFIG 825 [AWT-EventQueue-0 - D.ā] Product: DbVisualizer 9.2.15 [Build #2502]
+2016-04-19 15:20:33.398 CONFIG 825 [AWT-EventQueue-0 - D.ā] OS: Linux
+2016-04-19 15:20:33.399 CONFIG 825 [AWT-EventQueue-0 - D.ā] OS Version: 4.4.6
+2016-04-19 15:20:33.400 CONFIG 825 [AWT-EventQueue-0 - D.ā] OS Arch: amd64
+2016-04-19 15:20:33.401 CONFIG 825 [AWT-EventQueue-0 - D.ā] Java Version: 1.8.0_72-internal
+2016-04-19 15:20:33.403 CONFIG 825 [AWT-EventQueue-0 - D.ā] Java VM: OpenJDK 64-Bit Server VM
+2016-04-19 15:20:33.405 CONFIG 825 [AWT-EventQueue-0 - D.ā] Java Vendor: Oracle Corporation
+2016-04-19 15:20:33.405 CONFIG 825 [AWT-EventQueue-0 - D.ā] Java Home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-04-19 15:20:33.406 CONFIG 825 [AWT-EventQueue-0 - D.ā] DbVis Home: /opt/DbVisualizer
+2016-04-19 15:20:33.407 CONFIG 825 [AWT-EventQueue-0 - D.ā] User Home: /root
+2016-04-19 15:20:33.408 CONFIG 825 [AWT-EventQueue-0 - D.ā] PrefsDir: /root/.dbvis
+2016-04-19 15:20:33.409 CONFIG 825 [AWT-EventQueue-0 - D.ā] SessionId: 825
+2016-04-19 15:20:33.631 INFO   825 [AWT-EventQueue-0 - A.ā] Files in: /root/.dbvis/config70
+2016-04-19 15:20:33.635 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/borders (writable: true, readable: true)
+2016-04-19 15:20:33.639 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml (length: 35189, writable: true, readable: true)
+2016-04-19 15:20:33.643 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/dbvis.xml.orig (length: 34102, writable: true, readable: true)
+2016-04-19 15:20:33.647 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/editorstyles91.xml (length: 1057, writable: true, readable: true)
+2016-04-19 15:20:33.651 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/favorites.xml (length: 86, writable: true, readable: true)
+2016-04-19 15:20:33.654 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/keymaps (writable: true, readable: true)
+2016-04-19 15:20:33.657 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/layouts (writable: true, readable: true)
+2016-04-19 15:20:33.661 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/mp.xml (length: 91, writable: true, readable: true)
+2016-04-19 15:20:33.665 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/tablefilters.xml (length: 93, writable: true, readable: true)
+2016-04-19 15:20:33.670 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/templates.xml (length: 155, writable: true, readable: true)
+2016-04-19 15:20:33.674 INFO   825 [AWT-EventQueue-0 - A.ā]    /root/.dbvis/config70/workingset.xml (length: 88, writable: true, readable: true)
+2016-04-19 15:20:33.696 INFO   825 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:20:33.700 INFO   825 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/dbvis.xml (35189 bytes)
+2016-04-19 15:20:33.830 INFO   825 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:20:34.082 INFO   825 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:20:34.087 INFO   825 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/tablefilters.xml (93 bytes)
+2016-04-19 15:20:34.092 INFO   825 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:20:34.100 INFO   825 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:20:34.104 INFO   825 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/favorites.xml (86 bytes)
+2016-04-19 15:20:34.108 INFO   825 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:20:34.116 INFO   825 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:20:34.121 INFO   825 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/editorstyles91.xml (1057 bytes)
+2016-04-19 15:20:34.127 INFO   825 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:20:34.135 INFO   825 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:20:34.139 INFO   825 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/templates.xml (155 bytes)
+2016-04-19 15:20:34.143 INFO   825 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:20:34.154 INFO   825 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/workingset.xml
+2016-04-19 15:20:34.158 INFO   825 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/workingset.xml (88 bytes)
+2016-04-19 15:20:34.162 INFO   825 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/workingset.xml.bak
+2016-04-19 15:20:34.169 INFO   825 [AWT-EventQueue-0 - A.Ć] Loading file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:20:34.174 INFO   825 [AWT-EventQueue-0 - A.Ć]    Load/parse file: /root/.dbvis/config70/mp.xml (91 bytes)
+2016-04-19 15:20:34.177 INFO   825 [AWT-EventQueue-0 - A.Ć]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:20:40.883 INFO   825 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 8.159
+2016-04-19 15:20:42.162 INFO   825 [AWT-EventQueue-0 - W.Ą] Workspace auto saver thread started. Interval: 30 sec
+2016-04-19 15:20:42.168 INFO   825 [AWT-EventQueue-0 - U.Ă] Connection keep-alive thread started. Interval: 10 sec
+2016-04-19 15:20:51.841 INFO   825 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:20:51.844 INFO   825 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/dbvis.xml-20160419-152033678.tmp
+2016-04-19 15:20:51.874 INFO   825 [AWT-EventQueue-0 - A.ā]    Temp file written: 35584 bytes
+2016-04-19 15:20:51.876 INFO   825 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/dbvis.xml
+2016-04-19 15:20:51.884 INFO   825 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/dbvis.xml.bak
+2016-04-19 15:20:51.893 INFO   825 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:20:51.895 INFO   825 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/tablefilters.xml-20160419-152033684.tmp
+2016-04-19 15:20:51.897 INFO   825 [AWT-EventQueue-0 - A.ā]    Temp file written: 93 bytes
+2016-04-19 15:20:51.898 INFO   825 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/tablefilters.xml
+2016-04-19 15:20:51.904 INFO   825 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/tablefilters.xml.bak
+2016-04-19 15:20:51.910 INFO   825 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:20:51.912 INFO   825 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/favorites.xml-20160419-152033686.tmp
+2016-04-19 15:20:51.915 INFO   825 [AWT-EventQueue-0 - A.ā]    Temp file written: 86 bytes
+2016-04-19 15:20:51.916 INFO   825 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/favorites.xml
+2016-04-19 15:20:51.921 INFO   825 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/favorites.xml.bak
+2016-04-19 15:20:51.928 INFO   825 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:20:51.930 INFO   825 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/editorstyles91.xml-20160419-152033687.tmp
+2016-04-19 15:20:51.932 INFO   825 [AWT-EventQueue-0 - A.ā]    Temp file written: 1057 bytes
+2016-04-19 15:20:51.933 INFO   825 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/editorstyles91.xml
+2016-04-19 15:20:51.939 INFO   825 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/editorstyles91.xml.bak
+2016-04-19 15:20:51.945 INFO   825 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/templates.xml
+2016-04-19 15:20:51.947 INFO   825 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/templates.xml-20160419-152033689.tmp
+2016-04-19 15:20:51.949 INFO   825 [AWT-EventQueue-0 - A.ā]    Temp file written: 155 bytes
+2016-04-19 15:20:51.950 INFO   825 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/templates.xml
+2016-04-19 15:20:51.956 INFO   825 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/templates.xml.bak
+2016-04-19 15:20:51.963 INFO   825 [AWT-EventQueue-0 - A.ā] Writing file: /root/.dbvis/config70/mp.xml
+2016-04-19 15:20:51.965 INFO   825 [AWT-EventQueue-0 - A.ā]    Generate/write temp file: /root/.dbvis/config70/mp.xml-20160419-152033692.tmp
+2016-04-19 15:20:51.967 INFO   825 [AWT-EventQueue-0 - A.ā]    Temp file written: 91 bytes
+2016-04-19 15:20:51.967 INFO   825 [AWT-EventQueue-0 - A.ā]    Copying temp file to: /root/.dbvis/config70/mp.xml
+2016-04-19 15:20:51.974 INFO   825 [AWT-EventQueue-0 - A.ā]    Creating backup file: /root/.dbvis/config70/mp.xml.bak
+2016-04-19 15:20:51.980 INFO   825 [AWT-EventQueue-0 - DbVisualizerGUI.shutdown] Shutdown time: 0.299

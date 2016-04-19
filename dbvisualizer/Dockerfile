@@ -4,4 +4,6 @@ RUN bash -c 'apt-get update && URL="https://www.dbvis.com/product_download/dbvis
 
 ADD dbvis_prefs /root/.dbvis
 
-ENTRYPOINT ["/usr/local/bin/dbvis"]
+ADD scripts /opt/scripts
+
+ENTRYPOINT ["/opt/scripts/entrypoint.sh"]

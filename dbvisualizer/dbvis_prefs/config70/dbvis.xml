@@ -303,42 +303,8 @@
       <LastName>Apache Solr Search Server: solr-solrj</LastName>
       <LastVersion>7.0.0</LastVersion>
       <Locations>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/commons-io-2.4.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/httpclient-4.4.1.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/httpcore-4.4.1.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/httpmime-4.4.1.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/jcl-over-slf4j-1.7.7.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/noggit-0.6.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/slf4j-api-1.7.7.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/stax2-api-3.1.4.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/woodstox-core-asl-4.4.1.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solrj-lib/zookeeper-3.4.6.jar</Path>
-        </Location>
-        <Location type="dynamic">
-          <Path>/opt/solr/dist/solr-solrj-7.0.0-2844.jar</Path>
-          <Classes>
-            <Class type="jdbc">org.apache.solr.client.solrj.io.sql.DriverImpl</Class>
-          </Classes>
-        </Location>
+        LOCATION_REPLACE
+        DRIVER_REPLACE
       </Locations>
     </Driver>
     <Driver>
