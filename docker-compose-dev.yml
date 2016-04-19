@@ -11,7 +11,7 @@ services:
     extra_hosts:
       - "docker.local:192.168.64.2"
     environment:
-      - "SOLR_HOST=solr"
+      - "SOLR_HOST=docker.local"
 
   jisql:
     build: ./jisql
