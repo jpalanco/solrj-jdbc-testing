@@ -1,7 +1,9 @@
 version: '2'
 services:
   solr:
-    build: ./solr
+    build:
+      context: ./solr
+      dockerfile: "${SOLR_DOCKER_FILE}"
     ports:
       - '8983:8983'
       - '9983:9983'

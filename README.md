@@ -27,10 +27,3 @@ For one of the following do `docker-compose up -d ITEM`
 
 To get the dynamic port, `docker-compose port ITEM PORT`
 
-## GUI SQL UI Development
-1. `git checkout dev`
-2. Add your Docker host ip as docker to your `/etc/hosts` file
-3. `docker-compose up -d solr`
-4. Test your SQL client by pointing to `jdbc:solr://docker:9983?collection=test`
-5. `docker-compose down -v`
-
