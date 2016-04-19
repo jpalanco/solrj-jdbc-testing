@@ -1,40 +1,54 @@
 version: '2'
 services:
   solr:
+    build: ./solr
     ports:
       - '8983:8983'
       - '9983:9983'
+      - '18983:18983'
     extra_hosts:
       - "docker:192.168.99.100"
     command: /bin/bash -c "/opt/solr/bin/solr start -f -c -h docker -a '-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=18983'"
 
+  jisql:
+    build: ./jisql
+    extra_hosts:
+      - "docker:192.168.99.100"
+
   zeppelin:
+    build: ./zeppelin
     ports:
       - '8080:8080'
     extra_hosts:
       - "docker:192.168.99.100"
 
-  jisql:
-    extra_hosts:
-      - "docker:192.168.99.100"
-
-  python:
-    extra_hosts:
-      - "docker:192.168.99.100"
-  
-  jython:
+  spark:
+    build: ./spark
     extra_hosts:
       - "docker:192.168.99.100"
  
   r-base:
+    build: ./r-base
     extra_hosts:
       - "docker:192.168.99.100"
  
   rstudio:
+    build: ./rstudio
     extra_hosts:
       - "docker:192.168.99.100"
  
-  spark:
+  jython:
+    build: ./jython
     extra_hosts:
       - "docker:192.168.99.100"
  
+  python:
+    build: ./python
+    extra_hosts:
+      - "docker:192.168.99.100"
+
+  dbvisualizer:
+    build: ./dbvisualizer
+    extra_hosts:
+      - "docker: 192.168.99.100"
+
