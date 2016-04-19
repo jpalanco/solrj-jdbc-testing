@@ -5,6 +5,7 @@ services:
     ports:
       - 8983
       - 9983
+      - 18983
     volumes:
       - /opt/solr
 

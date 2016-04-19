@@ -5,4 +5,6 @@ ADD sa_conf /opt/sa_conf
 
 RUN /opt/solr/bin/solr start -c && /opt/solr/bin/solr create -c test -d /opt/sa_conf/ && /opt/solr/bin/post -c test /opt/sa_data/ && /opt/solr/bin/solr stop -all
 
-CMD ["bash", "-c", "/opt/solr/bin/solr start -f -c"]
+EXPOSE 9983
+EXPOSE 18983
+CMD ["bash", "-c", "/opt/solr/bin/solr start -f -c -a '-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=18983'"]
