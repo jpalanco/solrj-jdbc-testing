@@ -1,8 +1,6 @@
-FROM python:2
+FROM python:2-alpine
 
-ADD jessie-backports.list /etc/apt/sources.list.d/
-
-RUN apt-get update && apt-get install -y --no-install-recommends openjdk-8-jdk g++ python-dev && rm -rf /var/lib/apt/lists/* && apt-get clean
+RUN apk --no-cache add bash wget openjdk8-jre g++ python-dev && ln -s /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server/libjvm.so /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjvm.so
 
 ENV SLF4J_VERSION 1.7.7
 ADD http://central.maven.org/maven2/org/slf4j/slf4j-simple/${SLF4J_VERSION}/slf4j-simple-${SLF4J_VERSION}.jar /opt/slf4j-simple-${SLF4J_VERSION}.jar
