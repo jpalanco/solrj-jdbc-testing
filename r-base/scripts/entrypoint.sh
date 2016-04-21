@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 for SCRIPT in $(ls /opt/scripts/*.R)
 do

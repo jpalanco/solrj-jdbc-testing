@@ -1,7 +1,5 @@
 # https://www.rforge.net/RJDBC/
 
-install.packages("RJDBC", dep=TRUE)
-
 library("RJDBC")
 
 solrCP <- c(list.files('/opt/solr/dist/solrj-lib', full.names=TRUE), list.files('/opt/solr/dist', pattern='solrj', full.names=TRUE, recursive = TRUE))
