@@ -1,8 +1,9 @@
-FROM risdenk/docker-solr:master-alpine
+FROM risdenk/docker-solr:master
 
-ADD sa_data /opt/sa_data
-ADD sa_conf /opt/sa_conf
-ADD scripts/setup_collection.sh /docker-entrypoint-initdb.d/setup_collection.sh
+ADD sa_data /sa_data
+ADD sa_conf /sa_conf
+
+RUN /opt/solr/bin/solr start -c && /opt/solr/bin/solr create -c test -d /sa_conf/ && /opt/solr/bin/post -c test /sa_data/ && /opt/solr/bin/solr stop -all
 
 EXPOSE 9983
 EXPOSE 18983
