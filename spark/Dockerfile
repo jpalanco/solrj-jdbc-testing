@@ -1,10 +1,18 @@
-FROM java:openjdk-8-jre
+FROM java:8-jdk-alpine
 
-RUN apt-get update && apt-get install -y --no-install-recommends python r-base && rm -rf /var/lib/apt/lists/* && apt-get clean
+RUN echo 'options(repos = c(CRAN = "http://cran.rstudio.com/"))' >> ~/.Rprofile
+RUN apk --no-cache add build-base gfortran readline-dev perl
+RUN wget -qO- http://cran.r-project.org/src/base/R-3/R-3.2.5.tar.gz | tar zvx -C / && cd R-3.2.5 && ./configure --with-x=no && make && make install && rm -rf /R-3.2.5
 
-RUN curl 'http://apache.claz.org/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz' | tar xvz -C /opt/ && ln -nsf /opt/spark* /opt/spark
+RUN R CMD javareconf
 
-ADD scripts /opt/scripts
+RUN Rscript -e 'install.packages("RJDBC", dep=TRUE)'
 
-ENTRYPOINT /opt/scripts/entrypoint.sh
+RUN apk --no-cache add bash python
+
+RUN wget -qO- 'http://apache.claz.org/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz' | tar xvz -C / && ln -nsf /spark* /spark
+
+ADD scripts /scripts
+
+ENTRYPOINT /scripts/entrypoint.sh
 
