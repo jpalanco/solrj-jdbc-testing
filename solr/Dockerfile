@@ -2,9 +2,7 @@ FROM risdenk/docker-solr:master-alpine
 
 ADD sa_data /opt/sa_data
 ADD sa_conf /opt/sa_conf
-ADD scripts /scripts
-
-RUN ln -nsf /scripts/setup_collection.sh /docker-entrypoint-initdb.d/setup_collection.sh
+ADD scripts/setup_collection.sh /docker-entrypoint-initdb.d/setup_collection.sh
 
 EXPOSE 9983
 EXPOSE 18983
