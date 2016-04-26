@@ -109,7 +109,7 @@
      in a compatible way. Any analysis applied to the <uniqueKey> should _not_ produce multiple
      tokens
    -->   
-   <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" /> 
+   <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" docValues="true" />
 
    <field name="fielda" type="string" indexed="true" stored="true" docValues="true" />
    <field name="fieldb" type="string" indexed="true" stored="true" docValues="true" />
