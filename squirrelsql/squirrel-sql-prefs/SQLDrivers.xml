@@ -1,0 +1,15 @@
+<Beans>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>org.apache.solr.client.solrj.io.sql.DriverImpl</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-afb82df:15458801a49:-7f46</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+        LOCATION_REPLACE
+       </jarFileNames>
+        <name>Solr</name>
+        <url>jdbc:solr://&lt;zk_connection_string&gt;/?collection=&lt;collection&gt;</url>
+        <websiteUrl/>
+    </Bean>
+</Beans>

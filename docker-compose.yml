@@ -74,3 +74,12 @@ services:
     environment:
       - "DISPLAY=${X11_DISPLAY}"
 
+  squirrelsql:
+    image: risdenk/solrj-jdbc-testing:squirrelsql
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+    environment:
+      - "DISPLAY=${X11_DISPLAY}"
+

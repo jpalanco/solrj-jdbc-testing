@@ -54,3 +54,8 @@ services:
     extra_hosts:
       - "docker.local:${DOCKER_HOST_IP}"
  
+  squirrelsql:
+    build: ./squirrelsql
+    extra_hosts:
+      - "docker.local:${DOCKER_HOST_IP}"
+

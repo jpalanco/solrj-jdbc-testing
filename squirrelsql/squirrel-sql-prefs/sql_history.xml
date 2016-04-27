@@ -1,0 +1,21 @@
+<Beans>
+    <Bean Class="net.sourceforge.squirrel_sql.client.session.mainpanel.SQLHistory">
+        <data Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.client.session.mainpanel.SQLHistoryItem">
+                <SQL>select fielda, fieldb, min(fieldc), max(fieldc), avg(fieldc), sum(fieldc) from test group by fielda, fieldb</SQL>
+                <aliasName>Solr</aliasName>
+                <lastUsageTime Class="java.util.Date">
+                    <date>27</date>
+                    <day>3</day>
+                    <hours>16</hours>
+                    <minutes>20</minutes>
+                    <month>3</month>
+                    <seconds>37</seconds>
+                    <time>1461774037213</time>
+                    <timezoneOffset>0</timezoneOffset>
+                    <year>116</year>
+                </lastUsageTime>
+            </Bean>
+        </data>
+    </Bean>
+</Beans>

@@ -1,0 +1,191 @@
+2016-04-27 16:14:02,881 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:14:02,882 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - # Starting SQuirreL SQL Client Version 3.7 at 4/27/16 4:14 PM
+2016-04-27 16:14:02,882 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - SQuirreL SQL Client Version 3.7 started: Wed Apr 27 16:14:02 GMT 2016
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - Copyright (c) 2001-2015
+Colin Bell, Gerd Wagner, Rob Manning and others
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.vendor: Oracle Corporation
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.version: 1.8.0_77-internal
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.runtime.name: OpenJDK Runtime Environment
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.name: Linux
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.version: 4.4.6
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.arch: amd64
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.dir: /squirrelsql-3.7-base
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.home: /root
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.home: /usr/lib/jvm/java-1.8-openjdk/jre
+2016-04-27 16:14:02,886 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.class.path: /squirrelsql/squirrel-sql.jar:/squirrelsql/lib/RText.jar:/squirrelsql/lib/antlr.jar:/squirrelsql/lib/asm-attrs.jar:/squirrelsql/lib/asm.jar:/squirrelsql/lib/autocomplete.jar:/squirrelsql/lib/axis-jaxrpc.jar:/squirrelsql/lib/axis-saaj.jar:/squirrelsql/lib/axis-wsdl4j.jar:/squirrelsql/lib/axis.jar:/squirrelsql/lib/cglib.jar:/squirrelsql/lib/common.jar:/squirrelsql/lib/commons-cli.jar:/squirrelsql/lib/commons-codec.jar:/squirrelsql/lib/commons-collections-3.2.1.jar:/squirrelsql/lib/commons-discovery.jar:/squirrelsql/lib/commons-httpclient.jar:/squirrelsql/lib/commons-lang.jar:/squirrelsql/lib/commons-logging.jar:/squirrelsql/lib/core.jar:/squirrelsql/lib/dom4j.jar:/squirrelsql/lib/forms.jar:/squirrelsql/lib/hibernate-annotations.jar:/squirrelsql/lib/hibernate-commons-annotations.jar:/squirrelsql/lib/hibernate-entitymanager.jar:/squirrelsql/lib/hibernate.jar:/squirrelsql/lib/icu4j.jar:/squirrelsql/lib/javahelp.jar:/squirrelsql/lib/jcommon.jar:/squirrelsql/lib/jfreechart.jar:/squirrelsql/lib/jide-oss.jar:/squirrelsql/lib/jmeld.jar:/squirrelsql/lib/log4j.jar:/squirrelsql/lib/nanoxml.jar:/squirrelsql/lib/org.eclipse.equinox.common.jar:/squirrelsql/lib/osgi.jar:/squirrelsql/lib/poi-ooxml-schemas.jar:/squirrelsql/lib/poi-ooxml.jar:/squirrelsql/lib/poi.jar:/squirrelsql/lib/rstaui.jar:/squirrelsql/lib/rsyntaxtextarea.jar:/squirrelsql/lib/spring-beans.jar:/squirrelsql/lib/spring-context-support.jar:/squirrelsql/lib/spring-context.jar:/squirrelsql/lib/spring-core.jar:/squirrelsql/lib/stringtemplate.jar:/squirrelsql/lib/swing-worker.jar:/squirrelsql/lib/treetable.jar:/squirrelsql/lib/versioncheck.jar:/squirrelsql/lib/x86.jar:/squirrelsql/lib/xml-apis.jar:/squirrelsql/lib/xmlbeans.jar:
+2016-04-27 16:14:04,425 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - Apr 27, 2016 4:14:04 PM java.util.prefs.FileSystemPreferences$1 run
+2016-04-27 16:14:04,426 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - INFO: Created user preferences directory.
+2016-04-27 16:14:04,429 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - Apr 27, 2016 4:14:04 PM java.util.prefs.FileSystemPreferences$6 run
+2016-04-27 16:14:04,429 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - WARNING: Prefs file removed in background /root/.java/.userPrefs/prefs.xml
+2016-04-27 16:14:22,340 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: BEGIN: Wed Apr 27 16:14:22 GMT 2016
+2016-04-27 16:14:22,343 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _prefs.setFirstRun(false) ELAPSED: 3
+2016-04-27 16:14:22,355 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _listeners ELAPSED: 15
+2016-04-27 16:14:22,473 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDrivers() ELAPSED: 133
+2016-04-27 16:14:22,474 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveAliases() ELAPSED: 134
+2016-04-27 16:14:22,635 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveRecentFiles() ELAPSED: 295
+2016-04-27 16:14:22,639 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveSQLHistory() ELAPSED: 299
+2016-04-27 16:14:22,641 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveCellImportExportInfo() ELAPSED: 301
+2016-04-27 16:14:22,643 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveEditWhereColsInfo() ELAPSED: 303
+2016-04-27 16:14:22,645 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDataTypePreferences() ELAPSED: 305
+2016-04-27 16:14:22,648 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveUserSpecificWikiConfigurations() ELAPSED: 308
+2016-04-27 16:14:22,667 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: saveApplicationState() ELAPSED: 327
+2016-04-27 16:14:22,667 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: _pluginManager.unloadPlugins() ELAPSED: 327
+2016-04-27 16:14:22,668 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeAllViewers() ELAPSED: 328
+2016-04-27 16:14:22,669 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeOutputStreams() ELAPSED: 329
+2016-04-27 16:14:22,671 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: SchemaInfoCacheSerializer.waitTillStoringIsDone() ELAPSED: 331
+2016-04-27 16:14:22,672 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown END: Wed Apr 27 16:14:22 GMT 2016
+2016-04-27 16:14:29,989 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:14:29,991 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - # Starting SQuirreL SQL Client Version 3.7 at 4/27/16 4:14 PM
+2016-04-27 16:14:29,991 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - SQuirreL SQL Client Version 3.7 started: Wed Apr 27 16:14:29 GMT 2016
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - Copyright (c) 2001-2015
+Colin Bell, Gerd Wagner, Rob Manning and others
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.vendor: Oracle Corporation
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.version: 1.8.0_77-internal
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.runtime.name: OpenJDK Runtime Environment
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.name: Linux
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.version: 4.4.6
+2016-04-27 16:14:29,994 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.arch: amd64
+2016-04-27 16:14:29,995 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.dir: /squirrelsql-3.7-base
+2016-04-27 16:14:29,995 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.home: /root
+2016-04-27 16:14:29,995 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.home: /usr/lib/jvm/java-1.8-openjdk/jre
+2016-04-27 16:14:29,995 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.class.path: /squirrelsql/squirrel-sql.jar:/squirrelsql/lib/RText.jar:/squirrelsql/lib/antlr.jar:/squirrelsql/lib/asm-attrs.jar:/squirrelsql/lib/asm.jar:/squirrelsql/lib/autocomplete.jar:/squirrelsql/lib/axis-jaxrpc.jar:/squirrelsql/lib/axis-saaj.jar:/squirrelsql/lib/axis-wsdl4j.jar:/squirrelsql/lib/axis.jar:/squirrelsql/lib/cglib.jar:/squirrelsql/lib/common.jar:/squirrelsql/lib/commons-cli.jar:/squirrelsql/lib/commons-codec.jar:/squirrelsql/lib/commons-collections-3.2.1.jar:/squirrelsql/lib/commons-discovery.jar:/squirrelsql/lib/commons-httpclient.jar:/squirrelsql/lib/commons-lang.jar:/squirrelsql/lib/commons-logging.jar:/squirrelsql/lib/core.jar:/squirrelsql/lib/dom4j.jar:/squirrelsql/lib/forms.jar:/squirrelsql/lib/hibernate-annotations.jar:/squirrelsql/lib/hibernate-commons-annotations.jar:/squirrelsql/lib/hibernate-entitymanager.jar:/squirrelsql/lib/hibernate.jar:/squirrelsql/lib/icu4j.jar:/squirrelsql/lib/javahelp.jar:/squirrelsql/lib/jcommon.jar:/squirrelsql/lib/jfreechart.jar:/squirrelsql/lib/jide-oss.jar:/squirrelsql/lib/jmeld.jar:/squirrelsql/lib/log4j.jar:/squirrelsql/lib/nanoxml.jar:/squirrelsql/lib/org.eclipse.equinox.common.jar:/squirrelsql/lib/osgi.jar:/squirrelsql/lib/poi-ooxml-schemas.jar:/squirrelsql/lib/poi-ooxml.jar:/squirrelsql/lib/poi.jar:/squirrelsql/lib/rstaui.jar:/squirrelsql/lib/rsyntaxtextarea.jar:/squirrelsql/lib/spring-beans.jar:/squirrelsql/lib/spring-context-support.jar:/squirrelsql/lib/spring-context.jar:/squirrelsql/lib/spring-core.jar:/squirrelsql/lib/stringtemplate.jar:/squirrelsql/lib/swing-worker.jar:/squirrelsql/lib/treetable.jar:/squirrelsql/lib/versioncheck.jar:/squirrelsql/lib/x86.jar:/squirrelsql/lib/xml-apis.jar:/squirrelsql/lib/xmlbeans.jar:
+2016-04-27 16:15:33,325 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _prefs.setFirstRun(false) ELAPSED: 0
+2016-04-27 16:15:33,331 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _listeners ELAPSED: 6
+2016-04-27 16:15:33,417 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDrivers() ELAPSED: 92
+2016-04-27 16:15:33,418 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveAliases() ELAPSED: 93
+2016-04-27 16:15:33,428 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveRecentFiles() ELAPSED: 103
+2016-04-27 16:15:33,430 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveSQLHistory() ELAPSED: 105
+2016-04-27 16:15:33,437 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveCellImportExportInfo() ELAPSED: 112
+2016-04-27 16:15:33,439 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveEditWhereColsInfo() ELAPSED: 114
+2016-04-27 16:15:33,440 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDataTypePreferences() ELAPSED: 115
+2016-04-27 16:15:33,442 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveUserSpecificWikiConfigurations() ELAPSED: 117
+2016-04-27 16:19:41,602 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: BEGIN: Wed Apr 27 16:19:41 GMT 2016
+2016-04-27 16:19:41,602 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _prefs.setFirstRun(false) ELAPSED: 0
+2016-04-27 16:19:41,618 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _listeners ELAPSED: 16
+2016-04-27 16:19:41,625 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDrivers() ELAPSED: 23
+2016-04-27 16:19:41,627 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveAliases() ELAPSED: 25
+2016-04-27 16:19:41,638 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveRecentFiles() ELAPSED: 36
+2016-04-27 16:19:41,640 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveSQLHistory() ELAPSED: 38
+2016-04-27 16:19:41,642 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveCellImportExportInfo() ELAPSED: 40
+2016-04-27 16:19:41,643 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveEditWhereColsInfo() ELAPSED: 41
+2016-04-27 16:19:41,644 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDataTypePreferences() ELAPSED: 42
+2016-04-27 16:19:41,645 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveUserSpecificWikiConfigurations() ELAPSED: 43
+2016-04-27 16:19:41,659 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: saveApplicationState() ELAPSED: 57
+2016-04-27 16:19:41,659 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: _pluginManager.unloadPlugins() ELAPSED: 57
+2016-04-27 16:19:41,661 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeAllViewers() ELAPSED: 59
+2016-04-27 16:19:41,661 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeOutputStreams() ELAPSED: 59
+2016-04-27 16:19:41,663 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: SchemaInfoCacheSerializer.waitTillStoringIsDone() ELAPSED: 61
+2016-04-27 16:19:41,663 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown END: Wed Apr 27 16:19:41 GMT 2016
+2016-04-27 16:19:43,408 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:19:43,410 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - # Starting SQuirreL SQL Client Version 3.7 at 4/27/16 4:19 PM
+2016-04-27 16:19:43,410 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:19:43,413 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - SQuirreL SQL Client Version 3.7 started: Wed Apr 27 16:19:43 GMT 2016
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - Copyright (c) 2001-2015
+Colin Bell, Gerd Wagner, Rob Manning and others
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.vendor: Oracle Corporation
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.version: 1.8.0_77-internal
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.runtime.name: OpenJDK Runtime Environment
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.name: Linux
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.version: 4.4.6
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.arch: amd64
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.dir: /squirrelsql-3.7-base
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.home: /root
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.home: /usr/lib/jvm/java-1.8-openjdk/jre
+2016-04-27 16:19:43,414 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.class.path: /squirrelsql/squirrel-sql.jar:/squirrelsql/lib/RText.jar:/squirrelsql/lib/antlr.jar:/squirrelsql/lib/asm-attrs.jar:/squirrelsql/lib/asm.jar:/squirrelsql/lib/autocomplete.jar:/squirrelsql/lib/axis-jaxrpc.jar:/squirrelsql/lib/axis-saaj.jar:/squirrelsql/lib/axis-wsdl4j.jar:/squirrelsql/lib/axis.jar:/squirrelsql/lib/cglib.jar:/squirrelsql/lib/common.jar:/squirrelsql/lib/commons-cli.jar:/squirrelsql/lib/commons-codec.jar:/squirrelsql/lib/commons-collections-3.2.1.jar:/squirrelsql/lib/commons-discovery.jar:/squirrelsql/lib/commons-httpclient.jar:/squirrelsql/lib/commons-lang.jar:/squirrelsql/lib/commons-logging.jar:/squirrelsql/lib/core.jar:/squirrelsql/lib/dom4j.jar:/squirrelsql/lib/forms.jar:/squirrelsql/lib/hibernate-annotations.jar:/squirrelsql/lib/hibernate-commons-annotations.jar:/squirrelsql/lib/hibernate-entitymanager.jar:/squirrelsql/lib/hibernate.jar:/squirrelsql/lib/icu4j.jar:/squirrelsql/lib/javahelp.jar:/squirrelsql/lib/jcommon.jar:/squirrelsql/lib/jfreechart.jar:/squirrelsql/lib/jide-oss.jar:/squirrelsql/lib/jmeld.jar:/squirrelsql/lib/log4j.jar:/squirrelsql/lib/nanoxml.jar:/squirrelsql/lib/org.eclipse.equinox.common.jar:/squirrelsql/lib/osgi.jar:/squirrelsql/lib/poi-ooxml-schemas.jar:/squirrelsql/lib/poi-ooxml.jar:/squirrelsql/lib/poi.jar:/squirrelsql/lib/rstaui.jar:/squirrelsql/lib/rsyntaxtextarea.jar:/squirrelsql/lib/spring-beans.jar:/squirrelsql/lib/spring-context-support.jar:/squirrelsql/lib/spring-context.jar:/squirrelsql/lib/spring-core.jar:/squirrelsql/lib/stringtemplate.jar:/squirrelsql/lib/swing-worker.jar:/squirrelsql/lib/treetable.jar:/squirrelsql/lib/versioncheck.jar:/squirrelsql/lib/x86.jar:/squirrelsql/lib/xml-apis.jar:/squirrelsql/lib/xmlbeans.jar:
+2016-04-27 16:20:04,525 [pool-1-thread-1] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-04-27 16:20:04,527 [pool-1-thread-1] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-04-27 16:20:04,528 [pool-1-thread-1] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-04-27 16:20:04,684 [pool-1-thread-1-EventThread] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+2016-04-27 16:20:04,686 [pool-1-thread-1-EventThread] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - SLF4J: Defaulting to no-operation MDCAdapter implementation.
+2016-04-27 16:20:04,688 [pool-1-thread-1-EventThread] INFO  net.sourceforge.squirrel_sql.fw.util.log.SystemOutToLog  - SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+2016-04-27 16:20:04,738 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.AxionDialectExt$AxionDialectHelper
+2016-04-27 16:20:04,767 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.DB2DialectExt$DB2DialectHelper
+2016-04-27 16:20:04,770 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.DaffodilDialectExt$DaffodilDialectHelper
+2016-04-27 16:20:04,772 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.DB2DialectExt$DB2DialectHelper
+2016-04-27 16:20:04,772 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.DerbyDialectExt$DerbyDialectHelper
+2016-04-27 16:20:04,775 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.FirebirdDialectExt$FirebirdDialectHelper
+2016-04-27 16:20:04,777 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.FrontBaseDialectExt$FrontBaseDialectHelper
+2016-04-27 16:20:04,777 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.GenericDialectExt$GenericDialectHelper
+2016-04-27 16:20:04,778 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.HADBDialectExt$HADBDialectHelper
+2016-04-27 16:20:04,780 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.H2DialectExt$H2DialectHelper
+2016-04-27 16:20:04,783 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.HSQLDialectExt$HSQLDialectHelper
+2016-04-27 16:20:04,788 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.InformixDialectExt$InformixDialectHelper
+2016-04-27 16:20:04,789 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.InterbaseDialectExt$InterbaseDialectHelper
+2016-04-27 16:20:04,792 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.IngresDialectExt$IngresDialectHelper
+2016-04-27 16:20:04,795 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.MAXDBDialectExt$MAXDBDialectHelper
+2016-04-27 16:20:04,796 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.McKoiDialectExt$McKoiDialectHelper
+2016-04-27 16:20:04,799 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.MySQLDialectExt$MySQLDialectHelper
+2016-04-27 16:20:04,800 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.MySQLDialectExt$MySQLDialectHelper
+2016-04-27 16:20:04,802 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.NetezzaDialextExt$NetezzaDialectHelper
+2016-04-27 16:20:04,803 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.GreenplumDialectExt$GreenplumDialectHelper
+2016-04-27 16:20:04,806 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.OracleDialectExt$OracleDialectHelper
+2016-04-27 16:20:04,808 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.PointbaseDialectExt$PointbaseDialectHelper
+2016-04-27 16:20:04,810 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.PostgreSQLDialectExt$PostgreSQLDialectHelper
+2016-04-27 16:20:04,811 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.ProgressDialectExt$ProgressDialectHelper
+2016-04-27 16:20:04,814 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.SybaseDialectExt$SybaseDialectHelper
+2016-04-27 16:20:04,817 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.SybaseDialectExt$SybaseDialectHelper
+2016-04-27 16:20:04,817 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.SQLServerDialectExt$SQLServerDialectHelper
+2016-04-27 16:20:04,821 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.TimesTenDialectExt$TimesTenDialectHelper
+2016-04-27 16:20:04,824 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - Using dialect: net.sourceforge.squirrel_sql.fw.dialects.IntersystemsCacheDialectExt$CacheHelper
+2016-04-27 16:20:11,660 [Thread-3] ERROR net.sourceforge.squirrel_sql.client.session.schemainfo.SchemaInfo  - Error occurred creating data types collection
+java.lang.UnsupportedOperationException
+	at org.apache.solr.client.solrj.io.sql.DatabaseMetaDataImpl.getTypeInfo(DatabaseMetaDataImpl.java:773)
+	at net.sourceforge.squirrel_sql.fw.sql.SQLDatabaseMetaData.getDataTypesSimpleNames(SQLDatabaseMetaData.java:1971)
+	at net.sourceforge.squirrel_sql.client.session.schemainfo.SchemaInfo.loadDataTypes(SchemaInfo.java:900)
+	at net.sourceforge.squirrel_sql.client.session.schemainfo.SchemaInfo.privateLoadAll(SchemaInfo.java:315)
+	at net.sourceforge.squirrel_sql.client.session.schemainfo.SchemaInfo.initialLoad(SchemaInfo.java:187)
+	at net.sourceforge.squirrel_sql.client.session.Session$1.run(Session.java:229)
+	at net.sourceforge.squirrel_sql.fw.util.TaskExecuter.run(TaskExecuter.java:82)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-27 16:20:46,884 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: BEGIN: Wed Apr 27 16:20:46 GMT 2016
+2016-04-27 16:20:46,884 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _prefs.setFirstRun(false) ELAPSED: 0
+2016-04-27 16:20:46,892 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _listeners ELAPSED: 8
+2016-04-27 16:20:46,900 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDrivers() ELAPSED: 16
+2016-04-27 16:20:46,911 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveAliases() ELAPSED: 27
+2016-04-27 16:20:46,924 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveRecentFiles() ELAPSED: 40
+2016-04-27 16:20:46,935 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveSQLHistory() ELAPSED: 51
+2016-04-27 16:20:46,937 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveCellImportExportInfo() ELAPSED: 53
+2016-04-27 16:20:46,939 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveEditWhereColsInfo() ELAPSED: 55
+2016-04-27 16:20:46,940 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDataTypePreferences() ELAPSED: 56
+2016-04-27 16:20:46,941 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveUserSpecificWikiConfigurations() ELAPSED: 57
+2016-04-27 16:20:46,955 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: saveApplicationState() ELAPSED: 71
+2016-04-27 16:20:51,265 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: _pluginManager.unloadPlugins() ELAPSED: 4381
+2016-04-27 16:20:51,275 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeAllViewers() ELAPSED: 4391
+2016-04-27 16:20:51,276 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeOutputStreams() ELAPSED: 4392
+2016-04-27 16:20:51,276 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: SchemaInfoCacheSerializer.waitTillStoringIsDone() ELAPSED: 4392
+2016-04-27 16:20:51,276 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown END: Wed Apr 27 16:20:51 GMT 2016
+2016-04-27 16:20:53,186 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:20:53,187 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - # Starting SQuirreL SQL Client Version 3.7 at 4/27/16 4:20 PM
+2016-04-27 16:20:53,188 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - #############################################################################################################
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - SQuirreL SQL Client Version 3.7 started: Wed Apr 27 16:20:53 GMT 2016
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - Copyright (c) 2001-2015
+Colin Bell, Gerd Wagner, Rob Manning and others
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.vendor: Oracle Corporation
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.version: 1.8.0_77-internal
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.runtime.name: OpenJDK Runtime Environment
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.name: Linux
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.version: 4.4.6
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - os.arch: amd64
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.dir: /squirrelsql-3.7-base
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - user.home: /root
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.home: /usr/lib/jvm/java-1.8-openjdk/jre
+2016-04-27 16:20:53,191 [main] INFO  net.sourceforge.squirrel_sql.client.SquirrelLoggerFactory  - java.class.path: /squirrelsql/squirrel-sql.jar:/squirrelsql/lib/RText.jar:/squirrelsql/lib/antlr.jar:/squirrelsql/lib/asm-attrs.jar:/squirrelsql/lib/asm.jar:/squirrelsql/lib/autocomplete.jar:/squirrelsql/lib/axis-jaxrpc.jar:/squirrelsql/lib/axis-saaj.jar:/squirrelsql/lib/axis-wsdl4j.jar:/squirrelsql/lib/axis.jar:/squirrelsql/lib/cglib.jar:/squirrelsql/lib/common.jar:/squirrelsql/lib/commons-cli.jar:/squirrelsql/lib/commons-codec.jar:/squirrelsql/lib/commons-collections-3.2.1.jar:/squirrelsql/lib/commons-discovery.jar:/squirrelsql/lib/commons-httpclient.jar:/squirrelsql/lib/commons-lang.jar:/squirrelsql/lib/commons-logging.jar:/squirrelsql/lib/core.jar:/squirrelsql/lib/dom4j.jar:/squirrelsql/lib/forms.jar:/squirrelsql/lib/hibernate-annotations.jar:/squirrelsql/lib/hibernate-commons-annotations.jar:/squirrelsql/lib/hibernate-entitymanager.jar:/squirrelsql/lib/hibernate.jar:/squirrelsql/lib/icu4j.jar:/squirrelsql/lib/javahelp.jar:/squirrelsql/lib/jcommon.jar:/squirrelsql/lib/jfreechart.jar:/squirrelsql/lib/jide-oss.jar:/squirrelsql/lib/jmeld.jar:/squirrelsql/lib/log4j.jar:/squirrelsql/lib/nanoxml.jar:/squirrelsql/lib/org.eclipse.equinox.common.jar:/squirrelsql/lib/osgi.jar:/squirrelsql/lib/poi-ooxml-schemas.jar:/squirrelsql/lib/poi-ooxml.jar:/squirrelsql/lib/poi.jar:/squirrelsql/lib/rstaui.jar:/squirrelsql/lib/rsyntaxtextarea.jar:/squirrelsql/lib/spring-beans.jar:/squirrelsql/lib/spring-context-support.jar:/squirrelsql/lib/spring-context.jar:/squirrelsql/lib/spring-core.jar:/squirrelsql/lib/stringtemplate.jar:/squirrelsql/lib/swing-worker.jar:/squirrelsql/lib/treetable.jar:/squirrelsql/lib/versioncheck.jar:/squirrelsql/lib/x86.jar:/squirrelsql/lib/xml-apis.jar:/squirrelsql/lib/xmlbeans.jar:
+2016-04-27 16:20:57,881 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: BEGIN: Wed Apr 27 16:20:57 GMT 2016
+2016-04-27 16:20:57,882 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _prefs.setFirstRun(false) ELAPSED: 1
+2016-04-27 16:20:57,890 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: _listeners ELAPSED: 9
+2016-04-27 16:20:57,899 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDrivers() ELAPSED: 18
+2016-04-27 16:20:57,906 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveAliases() ELAPSED: 25
+2016-04-27 16:20:57,915 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveRecentFiles() ELAPSED: 34
+2016-04-27 16:20:57,919 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveSQLHistory() ELAPSED: 38
+2016-04-27 16:20:57,921 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveCellImportExportInfo() ELAPSED: 40
+2016-04-27 16:20:57,923 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveEditWhereColsInfo() ELAPSED: 42
+2016-04-27 16:20:57,924 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveDataTypePreferences() ELAPSED: 43
+2016-04-27 16:20:57,926 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown->_saveApplicationState: saveUserSpecificWikiConfigurations() ELAPSED: 45
+2016-04-27 16:20:57,940 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: saveApplicationState() ELAPSED: 59
+2016-04-27 16:20:57,940 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: _pluginManager.unloadPlugins() ELAPSED: 59
+2016-04-27 16:20:57,941 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeAllViewers() ELAPSED: 60
+2016-04-27 16:20:57,942 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: closeOutputStreams() ELAPSED: 61
+2016-04-27 16:20:57,944 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown: SchemaInfoCacheSerializer.waitTillStoringIsDone() ELAPSED: 63
+2016-04-27 16:20:57,944 [AWT-EventQueue-1] INFO  net.sourceforge.squirrel_sql.client.Application  - Application.shutdown END: Wed Apr 27 16:20:57 GMT 2016
