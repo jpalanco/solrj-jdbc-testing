@@ -7,55 +7,33 @@ services:
       - '8983:8983'
       - '9983:9983'
       - '18983:18983'
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
-    environment:
-      - "SOLR_HOST=docker.local"
 
   jisql:
     build: ./jisql
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
  
   zeppelin:
     build: ./zeppelin
     ports:
       - '8080:8080'
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
  
   spark:
     build: ./spark
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
  
   r-base:
     build: ./r-base
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
  
   rstudio:
     build: ./rstudio
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
   
   jython:
     build: ./jython
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
   
   python:
     build: ./python
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
  
   dbvisualizer:
     build: ./dbvisualizer
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
  
   squirrelsql:
     build: ./squirrelsql
-    extra_hosts:
-      - "docker.local:${DOCKER_HOST_IP}"
 
