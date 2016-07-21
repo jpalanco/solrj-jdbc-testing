@@ -27,6 +27,8 @@ services:
       - solr
     volumes_from:
       - solr:ro
+    environment:
+      - "ZEPPELIN_NOTEBOOK_HOMESCREEN=2BCZDUGVP"
 
   spark:
     image: risdenk/solrj-jdbc-testing:spark
