@@ -1,5 +1,8 @@
 FROM java:8-jre-alpine
 
+RUN apk add --no-cache ca-certificates wget && \
+        update-ca-certificates
+
 ENV JISQL_VERSION 2.0.11
 RUN mkdir -p /opt && wget -qO- https://www.xigole.com/software/jisql/build/jisql-${JISQL_VERSION}.tar.gz | tar xvz -C /opt/ && ln -s /opt/jisql-${JISQL_VERSION} /opt/jisql
 
