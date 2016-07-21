@@ -1,5 +1,8 @@
 FROM java:8-jdk-alpine
 
+RUN apk add --no-cache ca-certificates wget && \
+        update-ca-certificates
+
 RUN apk --no-cache add ttf-dejavu
 
 RUN wget -q https://www.dbvis.com/product_download/dbvis-9.2.15/media/dbvis_linux_9_2_15.sh -O /dbvis_linux_9_2_15.sh && sh /dbvis_linux_9_2_15.sh -q && rm /dbvis_linux_9_2_15.sh
