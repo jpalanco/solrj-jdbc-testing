@@ -21,6 +21,9 @@ services:
   spark:
     build: ./spark
  
+  spark2:
+    build: ./spark2
+ 
   r-base:
     build: ./r-base
  

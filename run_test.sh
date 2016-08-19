@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for x in jisql jython python r-base spark;
+for x in jisql jython python r-base spark spark2;
 do
   echo "Running $x"
   docker-compose run --rm $x;

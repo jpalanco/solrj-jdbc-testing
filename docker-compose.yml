@@ -35,6 +35,13 @@ services:
     volumes_from:
       - solr:ro
 
+  spark2:
+    image: risdenk/solrj-jdbc-testing:spark2
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
   r-base:
     image: risdenk/solrj-jdbc-testing:r-base
     depends_on:
