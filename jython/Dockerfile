@@ -1,4 +1,4 @@
-FROM java:jre-alpine
+FROM openjdk:jre-alpine
 
 ENV JYTHON_VERSION 2.7.0
 
