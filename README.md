@@ -1,7 +1,9 @@
 # solrj-jdbc-testing
 
+[![Build Status](https://travis-ci.org/risdenk/solrj-jdbc-testing.svg?branch=master)](https://travis-ci.org/risdenk/solrj-jdbc-testing)
+
 ## How to Use
-1. Install Docker Toolbox
+1. Install Docker
 2. `git clone https://github.com/risdenk/solrj-jdbc-testing`
 3. `cd solrj-jdbc-testing`
 4. `docker-compose up -d solr`
