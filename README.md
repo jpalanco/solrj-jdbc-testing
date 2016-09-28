@@ -23,7 +23,9 @@ For one of the following do `docker-compose up ITEM`
 For one of the following do `docker-compose up -d ITEM`
 
 * dbvisualizer
-  * Note: before running dbvisualizer the X11_DISPLAY environment variable must be set
+  * Note: before running the `X11_DISPLAY` environment variable must be set
+* squirrelsql
+  * Note: before running the `X11_DISPLAY` environment variable must be set
 * rstudio (port 8787)
 * zeppelin (port 8080)
 
