@@ -1,8 +1,7 @@
 version: '2'
 services:
   solr:
-    build:
-      context: ./solr
+    build: ./solr
     ports:
       - '8983:8983'
       - '9983:9983'
