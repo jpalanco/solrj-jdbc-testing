@@ -29,6 +29,7 @@ For one of the following do `docker-compose up -d ITEM`
 * rstudio (port 8787)
   * Username: rstudio
   * Password: rstudio
+  * Example script: `/opt/scripts/test_solr.R`
 * zeppelin (port 8080)
 
 To get the dynamic port, `docker-compose port ITEM PORT`
