@@ -27,6 +27,8 @@ For one of the following do `docker-compose up -d ITEM`
 * squirrelsql
   * Note: before running the `X11_DISPLAY` environment variable must be set
 * rstudio (port 8787)
+  * Username: rstudio
+  * Password: rstudio
 * zeppelin (port 8080)
 
 To get the dynamic port, `docker-compose port ITEM PORT`
