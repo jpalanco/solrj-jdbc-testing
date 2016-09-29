@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Must have XQuartz installed (https://www.xquartz.org/releases/index.html)
+# Must be either <2.7.8 or >=2.7.10. (2.7.9 is broken https://bugs.freedesktop.org/show_bug.cgi?id=95379)
 open -a xquartz
 HOST_IP=$(ipconfig getifaddr en0)
 xhost +$HOST_IP
