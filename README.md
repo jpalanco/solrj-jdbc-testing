@@ -1,6 +1,8 @@
 # solrj-jdbc-testing
 
-[![Build Status](https://travis-ci.org/risdenk/solrj-jdbc-testing.svg?branch=master)](https://travis-ci.org/risdenk/solrj-jdbc-testing)
+[![Docker Automated](https://img.shields.io/docker/automated/risdenk/solrj-jdbc-testing.svg)](https://hub.docker.com/r/risdenk/solrj-jdbc-testing/)
+
+Travis CI [![Build Status](https://travis-ci.org/risdenk/solrj-jdbc-testing.svg?branch=master)](https://travis-ci.org/risdenk/solrj-jdbc-testing)
 
 ## How to Use
 1. Install Docker
