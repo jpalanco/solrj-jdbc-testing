@@ -29,10 +29,13 @@ For one of the following do `docker-compose up -d ITEM`
 * squirrelsql
   * Note: before running the `X11_DISPLAY` environment variable must be set
 * rstudio (port 8787)
-  * Username: rstudio
-  * Password: rstudio
+  * `open http://localhost:$(docker-compose port rstudio 8787 | cut -d':' -f2)`
+  * Username: `rstudio`
+  * Password: `rstudio`
   * Example script: `/opt/scripts/test_solr.R`
 * zeppelin (port 8080)
+  * `open http://localhost:$(docker-compose port zeppelin 8080 | cut -d':' -f2)`
+  * Example notebook: `Solr JDBC`
 
 To get the dynamic port, `docker-compose port ITEM PORT`
 
