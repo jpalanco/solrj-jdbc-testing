@@ -28,6 +28,8 @@ services:
  
   rstudio:
     build: ./rstudio
+    ports:
+      - '8787:8787'
   
   jython:
     build: ./jython
