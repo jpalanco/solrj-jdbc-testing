@@ -12,6 +12,11 @@ Travis CI [![Build Status](https://travis-ci.org/risdenk/solrj-jdbc-testing.svg?
 5. Run any of non interative or interactive testing
 6. `docker-compose down -v`
 
+### Helper Scripts
+* `./run_test.sh`
+* `./run_x11.sh`
+* `./run_web.sh`
+
 ### Non interactive testing
 For one of the following do `docker-compose up ITEM`
 
@@ -20,6 +25,7 @@ For one of the following do `docker-compose up ITEM`
 * python
 * r-base
 * spark
+* spark2
 
 ### Interactive testing
 For one of the following do `docker-compose up -d ITEM`
