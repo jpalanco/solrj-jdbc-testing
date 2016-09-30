@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-export SOLR_CP="$(echo $(ls /opt/solr/dist/solr-solrj* /opt/solr/dist/solrj-lib/*) | tr ' ' ':')"
+# Exclude jackson-* libraries since Spark 2.x thinks they are too old
+export SOLR_CP="$(echo $(ls /opt/solr/dist/solr-solrj* /opt/solr/dist/solrj-lib/* | grep -v jackson) | tr ' ' ':')"
 
 for SCRIPT in $(ls /scripts/*.scala)
 do
