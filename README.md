@@ -13,6 +13,7 @@ Travis CI [![Build Status](https://travis-ci.org/risdenk/solrj-jdbc-testing.svg?
 6. `docker-compose down -v`
 
 ### Helper Scripts
+* `./run_solr.sh`
 * `./run_test.sh`
 * `./run_x11.sh`
 * `./run_web.sh`
