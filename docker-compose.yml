@@ -90,3 +90,12 @@ services:
     environment:
       - "DISPLAY=${X11_DISPLAY}"
 
+  calcite:
+    image: risdenk/solrj-jdbc-testing:calcite
+    ports:
+      - 8765
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
