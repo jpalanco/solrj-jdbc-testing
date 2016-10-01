@@ -98,4 +98,6 @@ services:
       - solr
     volumes_from:
       - solr:ro
+    volumes:
+      - $HOME/.m2:/root/.m2
 

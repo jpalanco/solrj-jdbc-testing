@@ -45,8 +45,6 @@ services:
 
   calcite:
     build: ./calcite
-    volumes:
-      - $HOME/.m2:/root/.m2
     ports:
       - '8765:8765'
 
