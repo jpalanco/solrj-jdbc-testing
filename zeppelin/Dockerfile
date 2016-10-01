@@ -1,5 +1,8 @@
 FROM risdenk/apache-zeppelin-docker:jdbc
 
+RUN mkdir -p /drivers \
+  && wget -q -O /drivers/avatica-1.8.0.jar https://repo.maven.apache.org/maven2/org/apache/calcite/avatica/avatica/1.8.0/avatica-1.8.0.jar
+
 RUN rm -rf /zeppelin/conf /zeppelin/local-repo /zeppelin/notebook
 
 ADD conf /zeppelin/conf

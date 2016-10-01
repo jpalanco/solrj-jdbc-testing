@@ -9,6 +9,9 @@ ENV DBVISUALIZER_VERSION 9_5_2
 
 RUN wget -q https://www.dbvis.com/product_download/dbvis-$(echo $DBVISUALIZER_VERSION | tr '_' '.')/media/dbvis_linux_${DBVISUALIZER_VERSION}.sh -O /dbvis_linux_${DBVISUALIZER_VERSION}.sh && sh /dbvis_linux_${DBVISUALIZER_VERSION}.sh -q && rm /dbvis_linux_${DBVISUALIZER_VERSION}.sh
 
+RUN mkdir -p /drivers \
+  && wget -q -O /drivers/avatica-1.8.0.jar https://repo.maven.apache.org/maven2/org/apache/calcite/avatica/avatica/1.8.0/avatica-1.8.0.jar
+
 ADD dbvis_prefs /root/.dbvis
 
 ADD scripts /opt/scripts
