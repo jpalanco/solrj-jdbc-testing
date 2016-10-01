@@ -6,7 +6,7 @@
 ## Description
 
 * collection - fields
-* `movie_titles_metdata` - `movieID`,`movie_title`,`movie_year`,`IMDB_rating`,`num_IMDB_votes`,`genres`
+* `movie_titles_metadata` - `movieID`,`movie_title`,`movie_year`,`IMDB_rating`,`num_IMDB_votes`,`genres`
 * `movie_characters_metadata` - `characterID`,`character_name`,`movieID`,`movie_title`,`gender`,`credits_pos`
 * `movie_lines` - `lineID`,`characterID`,`movieID`,`character_name`,`line`
 * `movie_conversations` - `characterID1`,`characterID2`,`movieID`,`utterances`
@@ -15,3 +15,17 @@
 ## Setup
 1. `./movie_dialogs.sh`
 
+## Streaming Expression Examples
+### InnerJoin
+```
+select(
+  innerJoin(
+    search(movie_dialogs_movie_titles_metadata, q=*:*, fl="movieID,movie_title", sort="movieID asc"),
+    search(movie_dialogs_movie_lines, q=*:*, fl="movieID,character_name,line", sort="movieID asc"),
+    on="movieID"
+  ),
+  movie_title,
+  character_name,
+  line
+)
+```
