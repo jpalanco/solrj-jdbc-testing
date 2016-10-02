@@ -15,8 +15,9 @@
 ## Setup
 1. `./movie_dialogs.sh`
 
-## Streaming Expression Examples
-### InnerJoin
+## Examples
+### Streaming Expressions
+#### InnerJoin
 ```
 select(
   innerJoin(
@@ -28,4 +29,9 @@ select(
   character_name,
   line
 )
+```
+### Calcite/Avatica
+#### Join
+```sql
+select distinct movie_title,character_name from movie_dialogs_movie_titles_metadata a join movie_dialogs_movie_lines b on a.movieID=b.movieID order by movie_title
 ```
