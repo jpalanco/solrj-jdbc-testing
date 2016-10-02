@@ -7,5 +7,10 @@ Inspired by:
 Data source:
 * http://download.geonames.org/export/dump/
 
+## Description
+
+* table - fields
+* `geonames` - `id`,`name`,`asciiname`,`alternatenames`,`latitude`,`longitude`,`featureclass`,`featurecode`,`countrycode`,`cc2`,`admin1code`,`admin2code`,`admin3code`,`admin4code`,`population`,`elevation`,`dem`,`timezone`,`modificationdate`
+
 ## Setup
 1. `./geonames.sh`
