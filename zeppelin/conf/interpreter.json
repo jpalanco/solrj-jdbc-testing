@@ -56,54 +56,54 @@
       ],
       "dependencies": [
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solr-solrj-7.0.0-SNAPSHOT.jar",
+          "groupArtifactVersion": "/solr-solrj.jar",
           "local": false
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/commons-io-2.4.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/commons-io-2.5.jar",
           "local": false
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/httpclient-4.4.1.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/httpclient-4.4.1.jar",
           "local": false
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/httpcore-4.4.1.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/httpcore-4.4.1.jar",
           "local": false,
           "exclusions": []
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/httpmime-4.4.1.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/httpmime-4.4.1.jar",
           "local": false,
           "exclusions": []
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/jcl-over-slf4j-1.7.7.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/jcl-over-slf4j-1.7.7.jar",
           "local": false,
           "exclusions": []
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/noggit-0.6.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/noggit-0.6.jar",
           "local": false,
           "exclusions": []
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/slf4j-api-1.7.7.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/slf4j-api-1.7.7.jar",
           "local": false,
           "exclusions": []
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/stax2-api-3.1.4.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/stax2-api-3.1.4.jar",
           "local": false,
           "exclusions": []
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/woodstox-core-asl-4.4.1.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/woodstox-core-asl-4.4.1.jar",
           "local": false,
           "exclusions": []
         },
         {
-          "groupArtifactVersion": "/opt/solr/solr-7.0.0-SNAPSHOT/dist/solrj-lib/zookeeper-3.4.6.jar",
+          "groupArtifactVersion": "/opt/solr/dist/solrj-lib/zookeeper-3.4.6.jar",
           "local": false,
           "exclusions": []
         }
