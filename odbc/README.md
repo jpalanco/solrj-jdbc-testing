@@ -1,4 +1,4 @@
-# solrj-jdbc-testing ODBC
+# solrj-jdbc-testing - ODBC->JDBC Bridge
 
 ## References
 * http://uda.openlinksw.com/odbc-jdbc-st/

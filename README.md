@@ -47,3 +47,6 @@ For one of the following do `docker-compose up -d ITEM`
   * Example notebook: `Solr JDBC`
 To get the dynamic port, `docker-compose port ITEM PORT`
 
+### ODBC->JDBC Bridge
+See [ODBC->JDBC README](odbc/README.md)
+
