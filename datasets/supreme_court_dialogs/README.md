@@ -12,6 +12,7 @@
 * `gender` - `speaker`,`gender`
 
 ## Setup
-1. Fix line 122 of supreme.votes to have 8 delimiters. Add ` +++$+++ NA::NA`
-2. `./supreme_court_dialogs.sh`
+1. `./download.sh`
+2. Fix line 122 of supreme.votes to have 8 delimiters. Add ` +++$+++ NA::NA`
+3. `./supreme_court_dialogs.sh`
 

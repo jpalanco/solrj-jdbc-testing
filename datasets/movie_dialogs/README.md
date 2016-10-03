@@ -13,7 +13,8 @@
 * `raw_script_urls` - `movieID`,`movie_title`,`url`
 
 ## Setup
-1. `./movie_dialogs.sh`
+1. `./download.sh`
+2. `./movie_dialogs.sh`
 
 ## Examples
 ### Streaming Expressions

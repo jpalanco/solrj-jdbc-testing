@@ -13,4 +13,6 @@ Data source:
 * `geonames` - `id`,`name`,`asciiname`,`alternatenames`,`latitude`,`longitude`,`featureclass`,`featurecode`,`countrycode`,`cc2`,`admin1code`,`admin2code`,`admin3code`,`admin4code`,`population`,`elevation`,`dem`,`timezone`,`modificationdate`
 
 ## Setup
-1. `./geonames.sh`
+1. `./download.sh`
+2. `./geonames.sh`
+
