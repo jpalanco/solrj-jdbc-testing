@@ -1,0 +1,20 @@
+version: '2'
+services:
+  solr:
+    ports:
+      - '8983:8983'
+      - '9983:9983'
+      - '18983:18983'
+
+  zeppelin:
+    ports:
+      - '8080:8080'
+
+  rstudio:
+    ports:
+      - '8787:8787'
+
+  calcite:
+    ports:
+      - '8765:8765'
+

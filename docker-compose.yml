@@ -2,6 +2,9 @@ version: '2'
 services:
   solr:
     image: risdenk/solrj-jdbc-testing:solr
+    hostname: solr
+    environment:
+      - "SOLR_HOST=solr"
     ports:
       - 8983
       - 9983

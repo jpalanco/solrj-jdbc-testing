@@ -2,10 +2,6 @@ version: '2'
 services:
   solr:
     build: ./solr
-    ports:
-      - '8983:8983'
-      - '9983:9983'
-      - '18983:18983'
     environment:
       - "SOLR_HOST=localhost"
 
@@ -14,8 +10,6 @@ services:
  
   zeppelin:
     build: ./zeppelin
-    ports:
-      - '8080:8080'
  
   spark:
     build: ./spark
@@ -28,8 +22,6 @@ services:
  
   rstudio:
     build: ./rstudio
-    ports:
-      - '8787:8787'
   
   jython:
     build: ./jython
@@ -45,6 +37,4 @@ services:
 
   calcite:
     build: ./calcite
-    ports:
-      - '8765:8765'
 
