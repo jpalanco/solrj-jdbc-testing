@@ -53,4 +53,5 @@ See [ODBC->JDBC README](odbc/README.md)
 ## Development
 * `docker-compose -f docker-compose.yml -f docker-compose-dev.yml build`
 * `docker-compose -f docker-compose.yml -f docker-compose-fixed-ports.yml ...`
+* Add `solr` to `/etc/hosts` for some testing
 
