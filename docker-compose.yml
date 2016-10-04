@@ -111,3 +111,10 @@ services:
     volumes_from:
       - solr:ro
 
+  sqlline:
+    image: risdenk/solrj-jdbc-testing:sqlline
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
