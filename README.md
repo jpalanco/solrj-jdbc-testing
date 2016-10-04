@@ -21,6 +21,7 @@ Travis CI [![Build Status](https://travis-ci.org/risdenk/solrj-jdbc-testing.svg?
 ### Non interactive testing
 For one of the following do `docker-compose up ITEM`
 
+* java
 * jisql
 * jython
 * python
