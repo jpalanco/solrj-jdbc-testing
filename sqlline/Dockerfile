@@ -9,5 +9,5 @@ ADD scripts /scripts
 WORKDIR /sqlline
 
 ENTRYPOINT ["/scripts/entrypoint.sh"]
-CMD ["-u","jdbc:solr://solr:9983?collection=test","-n","user","-p","pass","-f","/scripts/queries.sql"]
+CMD ["-u","jdbc:solr://solr:9983?collection=test","-n","user","-p","pass","-f","/scripts/queries.sql","--force=true"]
 
