@@ -15,7 +15,7 @@
  * JDBC Driver: `org.apache.solr.client.solrj.io.sql.DriverImpl`
  * URL String: `jdbc:solr://localhost:9983?collection=test`
 4. Start Solr:
- * `docker-compose -f ../docker-compose.yml -f ../docker-compose-dev.yml up -d solr`
+ * `docker-compose -f ../docker-compose.yml -f ../docker-compose-fixed-ports.yml up -d solr`
 5. Test the DSN:
  * `/Library/Application\ Support/iODBC/bin/iodbctest "DSN=localsolr;UID=user;PWD=password"`
 
