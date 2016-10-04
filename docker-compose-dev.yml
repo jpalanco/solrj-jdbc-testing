@@ -2,8 +2,6 @@ version: '2'
 services:
   solr:
     build: ./solr
-    environment:
-      - "SOLR_HOST=localhost"
 
   jisql:
     build: ./jisql

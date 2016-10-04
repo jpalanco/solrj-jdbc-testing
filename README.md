@@ -8,7 +8,7 @@ Travis CI [![Build Status](https://travis-ci.org/risdenk/solrj-jdbc-testing.svg?
 1. Install Docker
 2. `git clone https://github.com/risdenk/solrj-jdbc-testing`
 3. `cd solrj-jdbc-testing`
-4. `docker-compose up -d solr`
+4. `./run_solr.sh`
 5. Run any of non interative or interactive testing
 6. `docker-compose down -v`
 
@@ -49,4 +49,8 @@ To get the dynamic port, `docker-compose port ITEM PORT`
 
 ### ODBC->JDBC Bridge
 See [ODBC->JDBC README](odbc/README.md)
+
+## Development
+* `docker-compose -f docker-compose.yml -f docker-compose-dev.yml build`
+* `docker-compose -f docker-compose.yml -f docker-compose-fixed-ports.yml ...`
 
