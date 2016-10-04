@@ -28,6 +28,7 @@ For one of the following do `docker-compose up ITEM`
 * r-base
 * spark
 * spark2
+* sqlline
 
 ### Interactive testing
 For one of the following do `docker-compose up -d ITEM`
