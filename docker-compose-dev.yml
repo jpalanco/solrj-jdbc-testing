@@ -36,3 +36,6 @@ services:
   calcite:
     build: ./calcite
 
+  java:
+    build: ./java
+

@@ -104,3 +104,10 @@ services:
     volumes:
       - $HOME/.m2:/root/.m2
 
+  java:
+    image: risdenk/solrj-jdbc-testing:java
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+
