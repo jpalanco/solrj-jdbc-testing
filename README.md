@@ -38,7 +38,7 @@ For one of the following do `docker-compose up -d ITEM`
 * squirrelsql
   * Note: before running the `X11_DISPLAY` environment variable must be set
 * calcite (port 8765)
-  * Example: jdbc:avatica:remote:url=http://localhost:8765;zk=solr:9983;lex=MYSQL
+  * Example: `jdbc:avatica:remote:url=http://localhost:8765;zk=solr:9983;lex=MYSQL`
 * rstudio (port 8787)
   * `open http://localhost:$(docker-compose port rstudio 8787 | cut -d':' -f2)`
   * Username: `rstudio`
