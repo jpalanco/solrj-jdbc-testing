@@ -118,3 +118,12 @@ services:
     volumes_from:
       - solr:ro
 
+  hue:
+    image: risdenk/solrj-jdbc-testing:hue
+    ports:
+      - 8888
+    depends_on:
+      - solr
+    volumes_from:
+      - solr:ro
+

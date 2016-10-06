@@ -39,6 +39,10 @@ For one of the following do `docker-compose up -d ITEM`
   * Note: before running the `X11_DISPLAY` environment variable must be set
 * calcite (port 8765)
   * Example: `jdbc:avatica:remote:url=http://localhost:8765;zk=solr:9983;lex=MYSQL`
+* hue (port 8888)
+  * `open http://localhost:$(docker-compose port hue 8888 | cut -d':' -f2)`
+  * Username: `admin`
+  * Password: `admin`
 * rstudio (port 8787)
   * `open http://localhost:$(docker-compose port rstudio 8787 | cut -d':' -f2)`
   * Username: `rstudio`

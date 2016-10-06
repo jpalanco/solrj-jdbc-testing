@@ -42,3 +42,6 @@ services:
   sqlline:
     build: ./sqlline
 
+  hue:
+    build: ./hue
+

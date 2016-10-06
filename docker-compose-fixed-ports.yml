@@ -18,3 +18,7 @@ services:
     ports:
       - '8765:8765'
 
+  hue:
+    ports:
+      - '8888:8888'
+
