@@ -1,3 +1,6 @@
+run_solr_local.sh
+solr_local/
+
 *.bad
 .idea
 *.iml
