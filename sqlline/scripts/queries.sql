@@ -1,9 +1,9 @@
--- Not yet supported
 select * from test limit 10;
-SELECT COUNT(*) FROM (select COUNT(*) from test limit 100) t;
--- supported
+select * from test where 1 = 0 limit 10;
+select COUNT(*) FROM (select COUNT(*) from test limit 100) t;
 select COUNT(*) from test;
 select fielda from test limit 10;
+select fielda from test where 1 = 0 limit 10;
 select fielda, fieldb, fieldc from test limit 10;
 select fielda, fieldb, fieldd_s from test limit 10;
 select fielda, min(fieldc) from test group by fielda;
