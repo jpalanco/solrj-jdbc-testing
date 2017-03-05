@@ -5,4 +5,6 @@ sqlContext <- sparkRSQL.init(sc)
 
 df <- loadDF(sqlContext, source="jdbc", url="jdbc:solr://solr:9983?collection=test", dbtable="test")
 
+showDF(df)
+
 quit(save="no")
