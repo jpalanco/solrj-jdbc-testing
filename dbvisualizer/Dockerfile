@@ -1,5 +1,9 @@
 FROM openjdk:8-jdk-alpine
 
+# Upgrade to OpenJDK 8u141 from edge to avoid
+# https://bugs.alpinelinux.org/issues/7372
+RUN apk --no-cache upgrade openjdk8 --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --allow-untrusted
+
 RUN apk add --no-cache ca-certificates wget && \
         update-ca-certificates
 
