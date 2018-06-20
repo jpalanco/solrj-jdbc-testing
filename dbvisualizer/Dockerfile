@@ -9,7 +9,7 @@ RUN apk add --no-cache ca-certificates wget && \
 
 RUN apk --no-cache add ttf-dejavu
 
-ENV DBVISUALIZER_VERSION 9_5_4
+ENV DBVISUALIZER_VERSION 10_0_13
 
 RUN wget -q https://www.dbvis.com/product_download/dbvis-$(echo $DBVISUALIZER_VERSION | tr '_' '.')/media/dbvis_linux_${DBVISUALIZER_VERSION}.sh -O /dbvis_linux_${DBVISUALIZER_VERSION}.sh && sh /dbvis_linux_${DBVISUALIZER_VERSION}.sh -q && rm /dbvis_linux_${DBVISUALIZER_VERSION}.sh
 
