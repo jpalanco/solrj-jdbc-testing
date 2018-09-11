@@ -4,7 +4,7 @@ RUN apk --no-cache add bash
 
 RUN mkdir -p /sqlline
 ADD sqlline /sqlline
-ADD https://repo1.maven.org/maven2/sqlline/sqlline/1.4.0/sqlline-1.4.0-jar-with-dependencies.jar /sqlline
+ADD https://repo1.maven.org/maven2/sqlline/sqlline/1.5.0/sqlline-1.5.0-jar-with-dependencies.jar /sqlline
 
 ADD scripts /scripts
 
